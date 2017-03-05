@@ -1,4 +1,9 @@
-#About
+---
+layout: default
+title: Home
+---
+
+# About
 Starting on the night of August 28, 1967, NAACP Youth Council Commandos, Father James Groppi, Alderperson Vel Phillips, and a host of activists and community members marched for more than 200 nights to demand an end to housing segregation in Milwaukee. The marches signify, in many ways, the pinnacle of black freedom movement activism in the city. 
 
 This 50th anniversary commemoration honors the courage, perseverance, and solidarity of those who marched for racial justice in Milwaukee, taking inspiration from their collective efforts to reignite a spirit of collectivity and change-making.

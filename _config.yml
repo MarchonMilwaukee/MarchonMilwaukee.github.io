@@ -1,2 +1,24 @@
 theme: jekyll-theme-slate
 title: 200 Nights of Freedom
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+    
+navigation:
+- text: About
+  url: 'about/'
+  internal: true
+- text: History
+  url: 'history/'
+  internal: true
+- text: Submission
+  url: 'submission/'
+  internal: true
+- text: FAQs
+  url: 'faq/'
+  internal: true
+- text: Contact
+  url: 'contact/'
+  internal: true
