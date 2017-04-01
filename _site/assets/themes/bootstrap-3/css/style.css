@@ -17,14 +17,150 @@
 h1, h2, h3, h4 {
   color: #f22430;
 }
+
+#wrap{
+    max-width: 1024px;
+}
+
 #footer {
   background-color: #fdcd60;
+}
+
+@media (min-width: 768px)
+{
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+    
+
+    .navbar-nav>li>a {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 }
 
 #header
 {
     height: 431px;
     background: url(/assets/images/header-main.png) no-repeat;
+}
+
+.navbar-default
+{
+    padding-top: 20px;
+    background: transparent !important;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a
+{
+    text-shadow: none;
+    color: #000;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.navbar-default .navbar-nav>.active>a
+{
+    color: #000;
+    background-image: linear-gradient(to bottom,#FF8526 0,#FF8526 100%);
+    box-shadow: none;
+    
+}
+
+.call-to-action{
+    position: relative;
+    display: block;
+    height: 160px;
+}
+
+.call-to-action>ol:before, ..call-to-action>ol:after {
+    display: table;
+    content: " ";
+}
+
+.call-to-action>ol:after, .call-to-action:after
+{
+    clear: both;
+}
+
+.call-to-action>ol
+{
+    counter-reset:li; 
+    margin-left:0; 
+    padding-left:0;
+}
+
+.call-to-action>ol>li
+{
+    float: left;
+    position: relative;
+    width: 177px;
+    height: 120px;
+    margin: 30px;
+    padding: 20px; 
+    text-align: center;
+    display: block;
+}
+
+.call-to-action>ol>li:before {
+    border-radius: 50%;
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top: -19px;
+    width: 2em;
+    margin-left: 43px;
+    padding:4px;
+    color:#fff;
+    font-size: 18px;
+    background:#000;
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+.call-to-action>ol>li>a
+{
+    color: #000;
+    font-size: 25px;
+    background-color: #fff;
+}
+
+.submit-event
+{
+    background: url(/assets/images/submit-callout-bg.png);
+}
+
+.volunteer
+{
+    background: url(/assets/images/volunteer-callout-bg.png);
+}
+
+.sponsor
+{
+    background: url(/assets/images/sponsor-callout-bg.png);
+}
+
+.page-header
+{
+    background: #fff;
+    position: absolute;
+    padding: 10px;
+    margin: -30px 0px;
+    border-bottom: none;
+}
+
+.page-header h1
+{
+    color: #000;
+    font-size: .67em 0;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -34,6 +170,13 @@ h1, h2, h3, h4 {
         
     }
 }
+
+
+#content
+{
+    margin-top: 100px;
+}
+
 
 
 /* posts index */

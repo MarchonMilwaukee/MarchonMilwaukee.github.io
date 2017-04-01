@@ -1,9 +1,13 @@
 ---
-layout: page
-title: Fifty years after the "March on Milwaukee," Our city still needs a dramatic rethinking of what it means to share power and build justice for all people.
+layout: default
+title: people.
 tagline: While our neighborhoods are thriving in remarkable ways, high rates of segregation, poverty, and incarceration suggest that our city is still scarred by the continuing legacy of racism.
+subheader: BUILDING THE MILWAUKEE WE NEED
 ---
-{% include JB/setup %}
+
+### Fifty years after the "March on Milwaukee," Our city still needs a dramatic rethinking of what it means to share power and build justice for all 
+
+{% include themes/bootstrap-3/cta.html %}
 
 ## What we are Planning
 
@@ -13,7 +17,7 @@ Honoring the original marchers’ efforts to bring about the Milwaukee that they
 
 Our goal isn’t to start a movement, but rather to support, grow, and create connections across the vital work happening in Milwaukee.
 
-## The success of 200 Nights of Freedom will be determined by the power of our community.
+### The success of 200 Nights of Freedom will be determined by the power of our community.
 
 ## Action
 
