@@ -1,13 +1,78 @@
----
-layout: default
-title: Home
----
+# Jekyll-Bootstrap
 
-# About
-Starting on the night of August 28, 1967, NAACP Youth Council Commandos, Father James Groppi, Alderperson Vel Phillips, and a host of activists and community members marched for more than 200 nights to demand an end to housing segregation in Milwaukee. The marches signify, in many ways, the pinnacle of black freedom movement activism in the city. 
+The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
 
-This 50th anniversary commemoration honors the courage, perseverance, and solidarity of those who marched for racial justice in Milwaukee, taking inspiration from their collective efforts to reignite a spirit of collectivity and change-making.
- 
-What and why now: “200 Nights of Freedom: Black Power, Dissent and Youth Leadership” is the central program of the March on Milwaukee 50th Anniversary Celebration. The event will feature 200 consecutive nights of free public events that reflect upon, document, and honor the original spirit of the marches: Black power, dissent, and youth leadership.
- 
-Aspiration: In the spirit of honoring the original marchers’ efforts to bring about the Milwaukee that they hoped to see—a fair, civil, and racially just city—“200 Nights of Freedom” asks present day community members to participate in building the Milwaukee that we want live in, one that is open, collaborative, and welcoming to all.
+## Usage
+
+For all usage and documentation please see: <http://jekyllbootstrap.com>
+
+## Version
+
+0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+
+**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
+However, the actual API has not changed at all.
+You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+
+## Milestones
+
+[0.4.0](https://github.com/plusjade/jekyll-bootstrap/milestones/v%200.4.0) - next release [ETA 03/29/2015]
+
+### GOALS
+
+* No open PRs against master branch.
+* Squash some bugs.
+* Add some new features (low-hanging fruit).
+* Establish social media presence.
+
+
+### Bugs
+
+|Bug |Description
+|------|---------------
+|[#86](https://github.com/plusjade/jekyll-bootstrap/issues/86)  |&#x2611; Facebook Comments
+|[#113](https://github.com/plusjade/jekyll-bootstrap/issues/113)|&#x2611; ASSET_PATH w/ page & post
+|[#144](https://github.com/plusjade/jekyll-bootstrap/issues/144)|&#x2610; BASE_PATH w/ FQDN
+|[#227](https://github.com/plusjade/jekyll-bootstrap/issues/227)|&#x2611; Redundant JB/setup
+
+### Features
+
+|Bug |Description
+|------|---------------
+|[#98](https://github.com/plusjade/jekyll-bootstrap/issues/98)  |&#x2611; GIST Integration
+|[#244](https://github.com/plusjade/jekyll-bootstrap/issues/244)|&#x2611; JB/file_exists Helper
+|[#42](https://github.com/plusjade/jekyll-bootstrap/issues/42)  |&#x2611; Sort collections of Pages / Posts
+|[#84](https://github.com/plusjade/jekyll-bootstrap/issues/84)  |&#x2610; Detecting production mode
+
+### TODOS
+
+Review existing pull requests against plusjake/jekyll-bootstrap:master. Merge or close each.
+
+* Create twitter account. Add link / icon on jekyllbootstrap.com.
+* Create blog posts under plusjade/gh-pages, expose on jekyllbootstrap.com, feed to twitter account.
+* Announce state of project, announce roadmap(s), announce new versions as they’re released.
+
+## Contributing
+
+
+To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
+This is very important as it allows me to accept your pull request without having to publish a public version release.
+
+Small, atomic Features, bugs, etc.
+Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
+Please rebase as often as possible when working.
+Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+
+For Big Features or major API extensions/edits:
+This is the one case where I'll accept pull-requests based off the master branch.
+This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
+Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+
+**Jekyll-Bootstrap Documentation Website.**
+
+The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
