@@ -15,16 +15,38 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  color: #FC584A;
 }
 
-#wrap{
+h1
+{
+    font-size: 22px;
+}
+
+@media (min-width: 1200px)
+{
+    .container {
+        max-width: 1024px;
+    }
+}
+#wrap, #container{
     max-width: 1024px;
+}
+
+.navbar-brand
+{
+    background: url(/assets/images/mom-50-logo.png) no-repeat;
+    height: 225px;
+    margin-left: 20px;
+    text-indent: -9999px;
+    width: 195px;
 }
 
 #footer {
   background-color: #fdcd60;
 }
+
+
 
 @media (min-width: 768px)
 {
@@ -44,6 +66,11 @@ h1, h2, h3, h4 {
 {
     height: 431px;
     background: url(/assets/images/header-main.png) no-repeat;
+}
+
+.page-header h1
+{
+    font-size: 34px;
 }
 
 .navbar-default
