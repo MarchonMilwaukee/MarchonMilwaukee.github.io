@@ -14,8 +14,19 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
+@font-face {
+    font-family: mainFontItalic;
+    src: url(/assets/fonts/337EC7_0_0.woff);
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(/assets/fonts/337EC7_1_0.woff);
+}
+
+
 h1, h2, h3, h4 {
-  color: #FC584A;
+    color: #FC584A;
 }
 
 h1
@@ -62,6 +73,11 @@ h1
     }
 }
 
+.container .row
+{
+    padding-top: 50px;
+}
+
 #header
 {
     height: 431px;
@@ -71,6 +87,7 @@ h1
 .page-header h1
 {
     font-size: 34px;
+    font-family: mainFontItalic;
 }
 
 .navbar-default
@@ -153,7 +170,8 @@ h1
 .call-to-action>ol>li>a
 {
     color: #000;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: mainFont;
     background-color: #fff;
 }
 
@@ -176,7 +194,6 @@ h1
 {
     background: #fff;
     position: absolute;
-    padding: 10px;
     margin: -30px 0px;
     border-bottom: none;
 }
@@ -184,10 +201,12 @@ h1
 .page-header h1
 {
     color: #000;
-    font-size: .67em 0;
+    font-size: 5em;
     text-transform: uppercase;
-    margin-top: 0px;
+    margin-top: -8px;
     margin-bottom: 0px;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
 }
 
 
@@ -197,13 +216,6 @@ h1
         
     }
 }
-
-
-#content
-{
-    margin-top: 100px;
-}
-
 
 
 /* posts index */
