@@ -24,15 +24,32 @@
     src: url(/assets/fonts/337EC7_1_0.woff);
 }
 
+body {
+  font-size: 18px;
+}
 
-h1, h2, h3, h4 {
+
+h2, h3, h4 {
     color: #FC584A;
+    margin-top: 3rem;
+}
+
+
+.black-header {
+  font-family: mainFont;
+  color: #222;
+  font-size: 2.75rem;
+  line-height: 130%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 h1
 {
+
     font-size: 22px;
 }
+
 
 @media (min-width: 1200px)
 {
@@ -42,6 +59,7 @@ h1
 }
 #wrap, #container{
     max-width: 1024px;
+    margin: auto;
 }
 
 .navbar-brand
@@ -65,12 +83,14 @@ h1
         float: right;
         margin: 0;
     }
-    
+
 
     .navbar-nav>li>a {
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
+
 }
 
 .container .row
@@ -111,13 +131,14 @@ h1
     color: #000;
     background-image: linear-gradient(to bottom,#FF8526 0,#FF8526 100%);
     box-shadow: none;
-    
+
 }
 
 .call-to-action{
     position: relative;
     display: block;
-    height: 160px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .call-to-action>ol:before, ..call-to-action>ol:after {
@@ -132,21 +153,23 @@ h1
 
 .call-to-action>ol
 {
-    counter-reset:li; 
-    margin-left:0; 
+    counter-reset:li;
+    margin-left:0;
     padding-left:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .call-to-action>ol>li
 {
-    float: left;
     position: relative;
     width: 177px;
     height: 120px;
-    margin: 30px;
-    padding: 20px; 
+    padding: 20px;
     text-align: center;
     display: block;
+    margin-right: 20px;
 }
 
 .call-to-action>ol>li:before {
@@ -155,9 +178,11 @@ h1
     counter-increment:li; /* Increment the counter by 1 */
     /* Position and style the number */
     position:absolute;
-    top: -19px;
-    width: 2em;
-    margin-left: 43px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 35px;
+    height: 35px;
     padding:4px;
     color:#fff;
     font-size: 18px;
@@ -173,6 +198,10 @@ h1
     font-size: 35px;
     font-family: mainFont;
     background-color: #fff;
+    line-height: 120%;
+    margin-top: 100%;
+    transform: translateY(-50%);
+
 }
 
 .submit-event
@@ -211,10 +240,22 @@ h1
 
 
 @media (max-width: 767px) {
-	#header
-    {
-        
-    }
+  .sidebar {
+    display: none;
+  }
+  .call-to-action li br {
+    display: none;
+  }
+  .call-to-action {
+    min-width: 450px;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  .main {
+    padding-right: 10px;
+  }
 }
 
 
@@ -272,3 +313,22 @@ h1
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0px;
+}
+.main {
+  flex: 1;
+  display: block;
+  max-width: 100%;
+  margin-bottom: 150px;
+}
+.sidebar {
+  flex: 0 0 300px;
+  width: 300px;
+  height: 500px;
+  background-color: #000;
+  margin-left: 20px;
+}
