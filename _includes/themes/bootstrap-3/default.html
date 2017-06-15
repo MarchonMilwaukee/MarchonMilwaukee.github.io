@@ -75,6 +75,13 @@
           {{ content }}
         </div>
         <div class="sidebar">
+           {% assign path = '' %}
+           {% assign sidebar = page.sidebar %}
+           {% if sidebar == null %}
+             {% assign sidebar = 'default' %}
+           {% endif %}
+           {% capture path %}sidebars/{{sidebar}}.html{% endcapture %}
+           {% include {{path}} %}
         </div>
 
       </div>
