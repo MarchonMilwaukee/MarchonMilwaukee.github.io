@@ -13,6 +13,12 @@
 /*.navbar .nav {
   float: right; }*/
 
+.navbar .navbar-nav li a {
+  text-transform: uppercase;
+  font-family: "Futura", "Avenir";
+  font-weight: 900;
+}
+
 /* Jekyll Bootstrap Colors */
 @font-face {
     font-family: mainFontItalic;
@@ -104,10 +110,23 @@ h1
     background: url(/assets/images/header-main.png) no-repeat;
 }
 
-.page-header h1
+.page-header h1,
+.subheader
 {
     font-size: 34px;
     font-family: mainFontItalic;
+}
+
+.subheader {
+  background-color: #FFF;
+  color: #000;
+  display: inline-block;
+  padding: 0 6px;
+  font-size: 4em;
+  margin: 0px;
+  line-height: 80px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .navbar-default
@@ -326,8 +345,42 @@ h1
   margin-bottom: 150px;
 }
 .sidebar {
-  flex: 0 0 300px;
-  width: 300px;
-  height: 500px;
-  margin-left: 20px;
+  flex: 0 0 250px;
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 115px;
+}
+
+.sidebar img {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.sidebar p {
+
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sidebar p.pink {
+  color: #FF2B8C;
+}
+
+.sidebar .img {
+  display: block;
+  position: relative;
+}
+.sidebar .img:before {
+  content: attr(title);
+  display: block;
+  color: #FF8526;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  z-index: 1;
+  font-size: 23px;
+  text-shadow: 0 0 5px rgba(0,0,0, 0.75);
 }
