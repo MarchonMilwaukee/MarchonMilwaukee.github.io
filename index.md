@@ -1,8 +1,6 @@
 ---
-layout: default
-title: people.
-tagline: While our neighborhoods are thriving in remarkable ways, high rates of segregation, poverty, and incarceration suggest that our city is still scarred by the continuing legacy of racism.
-subheader: BUILDING THE MILWAUKEE WE NEED
+layout: page
+title: Building the Milwaukee We Need
 sidebar: home
 ---
 

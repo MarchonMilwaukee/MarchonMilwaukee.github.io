@@ -13,11 +13,16 @@
 /*.navbar .nav {
   float: right; }*/
 
+
 .navbar .navbar-nav li a {
   text-transform: uppercase;
-  font-family: "Futura", "Avenir";
+  font-family: "Futura", "Open Sans";
   font-weight: 900;
 }
+
+body {
+    font-family: "Futura","Open Sans";
+  }
 
 /* Jekyll Bootstrap Colors */
 @font-face {
@@ -38,6 +43,11 @@ body {
 h2, h3, h4 {
     color: #FC584A;
     margin-top: 3rem;
+    font-weight: normal;
+}
+
+h2 {
+  font-size: 22px;
 }
 
 
@@ -70,11 +80,12 @@ h1
 
 .navbar-brand
 {
-    background: url(/assets/images/mom-50-logo.png) no-repeat;
+    background: url(/assets/images/mom-logo.png) no-repeat;
     height: 225px;
     margin-left: 20px;
     text-indent: -9999px;
     width: 195px;
+    margin-top: -20px;
 }
 
 #footer {
@@ -99,15 +110,29 @@ h1
 
 }
 
-.container .row
+.container .main > .row
 {
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
 #header
 {
     height: 431px;
-    background: url(/assets/images/header-main.png) no-repeat;
+    background: url(/assets/images/header-main.png) no-repeat center;
+    background-size: cover!important;
+    background-position: center!important;
+    position: relative;
+}
+
+#header:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/assets/images/200nof-logo.png);
+  background-position: center 110px;
+  background-repeat: no-repeat;
 }
 
 .page-header h1,
@@ -131,7 +156,7 @@ h1
 
 .navbar-default
 {
-    padding-top: 20px;
+    padding-top: 40px;
     background: transparent !important;
     border: none;
     box-shadow: none;
@@ -145,14 +170,21 @@ h1
     padding: 10px;
 }
 
-.navbar-default .navbar-nav>.active>a
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active:hover>a
+{
+    color: #000;
+    background: transparent;
+    box-shadow: none;
+
+}
+.navbar-default .navbar-nav>.highlight>a
 {
     color: #000;
     background-image: linear-gradient(to bottom,#FF8526 0,#FF8526 100%);
     box-shadow: none;
 
 }
-
 .call-to-action{
     position: relative;
     display: block;
@@ -363,7 +395,7 @@ h1
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.sidebar p.pink {
+p.pink, p.pink a {
   color: #FF2B8C;
 }
 
@@ -383,4 +415,32 @@ h1
   z-index: 1;
   font-size: 23px;
   text-shadow: 0 0 5px rgba(0,0,0, 0.75);
+}
+
+.people {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.people .person {
+  flex-grow: 0;
+  flex-basis: 25%;
+  margin-top: 30px;
+  padding-right: 25px;
+}
+
+.people .person img {
+  width: 100%;
+}
+
+.people .person .name {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.people .person .title {
+  font-size: 14px;
 }
