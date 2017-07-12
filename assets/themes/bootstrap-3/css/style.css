@@ -307,6 +307,24 @@ h1
   .main {
     padding-right: 10px;
   }
+
+  .page-header h1 {
+    color: #000;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+  }
+
+  .navbar-brand {
+    height: 90px;
+  }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form { 
+    background-color: #fff;
+  }
 }
 
 
