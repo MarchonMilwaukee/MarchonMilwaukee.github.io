@@ -13,6 +13,9 @@
 /*.navbar .nav {
   float: right; }*/
 
+a.dark {
+  color: #000;
+}
 
 .navbar .navbar-nav li a {
   text-transform: uppercase;
@@ -207,8 +210,15 @@ h1
     counter-reset:li;
     margin-left:0;
     padding-left:0;
-    display: flex;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
     flex-direction: row;
+    -webkit-align-items: center;
+    -moz-align-items: center;
     align-items: center;
 }
 
@@ -221,6 +231,17 @@ h1
     text-align: center;
     display: block;
     margin-right: 20px;
+
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
 }
 
 .call-to-action>ol>li:before {
@@ -243,17 +264,17 @@ h1
     text-align:center;
 }
 
-.call-to-action>ol>li>a
+.call-to-action>ol>li div
 {
     color: #000;
     font-size: 35px;
     font-family: mainFont;
     background-color: #fff;
     line-height: 120%;
-    margin-top: 100%;
-    transform: translateY(-50%);
-
+    display: inline;
+    padding: 0px 5px;
 }
+
 
 .submit-event
 {
