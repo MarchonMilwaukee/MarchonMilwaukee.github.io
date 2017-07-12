@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 
+    <meta property="og:image" content="http://200nightsoffreedom.org/assets/images/FB_linkshare.png">
+    <meta property="og:description" content="{{page.description}}">
+    {% if page.share_title %}
+      <meta property="og:title" content="{{ page.share_title }}">
+    {% else %}
+      <meta property="og:title" content="200 Nights of Freedom">
+    {% end %}
+
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
