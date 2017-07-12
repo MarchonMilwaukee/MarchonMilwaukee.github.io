@@ -544,3 +544,21 @@ p.pink, p.pink a {
 {
     background: url(/assets/images/sponsor-wide.png);
 }
+
+.form-group label {
+  display: block;
+  color: #FC584A;
+  font-weight: normal;
+}
+
+.form-group input,
+.form-group textarea {
+  border: 1px solid #979797;
+  padding: 6px 12px;
+  width: 100%;
+  max-width: 475px;
+}
+
+input.btn {
+  background-color: #FF8526;
+}

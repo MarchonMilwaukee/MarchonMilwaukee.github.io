@@ -19,3 +19,22 @@ order: 5
 <p>200 Nights of Freedom will harness the strength that exists within our communities and act as a platform for dreaming new and ambitious work into being. No contribution is too large or small.  Whether you are an individual, part of a community group, or represent an institution or organization, you are invited to contribute to 200 Nights of Freedom.</p>
 
 {% include themes/bootstrap-3/cta.html %}
+
+<h2>Have Questions? Get in Touch</h2>
+
+<form action="https://formspree.io/info@200nightsoffreedom.org"
+      method="POST">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" name="name" placeholder="First and last name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" name="_replyto" placeholder="you@email.com">
+    </div>
+    <div class="form-group">
+      <label for="body">Your Question</label>
+      <textarea name="body" id="body" rows="5"></textarea>
+    </div>
+    <input type="submit" value="Send" class="btn btn-lg">
+</form>
