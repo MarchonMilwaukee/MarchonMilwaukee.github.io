@@ -318,8 +318,13 @@ h1
   .call-to-action li br {
     display: none;
   }
-  .call-to-action {
-    min-width: 450px;
+  .call-to-action ol {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+  }
+  .call-to-action ol li {
+    margin-bottom: 35px;
   }
   .container {
     overflow-x: hidden;
@@ -343,7 +348,7 @@ h1
     height: 90px;
   }
 
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form { 
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     background-color: #fff;
   }
 }
