@@ -15,12 +15,15 @@ window.events = [
     "title": "{{ post.title }}",
     "starts_at": new Date("{{ post.starts_at }}"),
     "ends_at": new Date("{{ post.ends_at }}"),
+    "location": "{{ post.location}}",
     "permalink": "{{ post.url }}"
   }
   {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
 </script>
+
+{% include weekday.html %}
 
 <div id="calendar" v-cloak>
   {% raw %}
@@ -78,24 +81,31 @@ window.events = [
     </tbody>
   </table>
   <div v-if="display=='week'" class="week" v-cloak>
-    <h2>
+    <h1>
       Events happening {{ formatDate(dateO(currentMonth, currentWeek, 0), 'short') }} - {{ formatDate(dateO(currentMonth, currentWeek, 6), 'short') }}
-    </h2>
+    </h1>
     <div class="btn-group mobile-controls">
       <div id="previous-month" class="btn" v-on:click="previous">&larr;&nbsp; Previous</div>
       <div id="next-month" class="btn" v-on:click="next">Next&nbsp; &rarr;</div>
     </div>
     <ul class="event-list">
-      <li v-for="event in eventsOnWeek(dateO(currentMonth, currentWeek, 0))" class="event">
-        <h3><a v-bind:href="event.permalink">{{ event.title }}</a></h3>
-        <div class="dateline">{{ starting(event) }} to {{ ending(event) }}</div>
-      </li>
+      <weekday :date="formatDate(dateO(currentMonth, currentWeek, 0), 'long')"
+               :events="eventsOnDate(dateO(currentMonth, currentWeek, 0))"></weekday>
+      <weekday :date="formatDate(dateO(currentMonth, currentWeek, 1), 'long')"
+               :events="eventsOnDate(dateO(currentMonth, currentWeek, 1))"></weekday>
+      <weekday :date="formatDate(dateO(currentMonth, currentWeek, 2), 'long')"
+               :events="eventsOnDate(dateO(currentMonth, currentWeek, 2))"></weekday>
+      <weekday :date="formatDate(dateO(currentMonth, currentWeek, 3), 'long')"
+               :events="eventsOnDate(dateO(currentMonth, currentWeek, 3))"></weekday>
+      <weekday :date="formatDate(dateO(currentMonth, currentWeek, 4), 'long')"
+               :events="eventsOnDate(dateO(currentMonth, currentWeek, 4))"></weekday>
+      <weekday :date="formatDate(dateO(currentMonth, currentWeek, 5), 'long')"
+               :events="eventsOnDate(dateO(currentMonth, currentWeek, 5))"></weekday>
+      <weekday :date="formatDate(dateO(currentMonth, currentWeek, 6), 'long')"
+               :events="eventsOnDate(dateO(currentMonth, currentWeek, 6))"></weekday>
     </ul>
-    <div v-if="eventsOnWeek(dateO(currentMonth, currentWeek, 0)).length === 0">
-      No events found.
-    </div>
   </div>
-  {% endraw %}
-</div>
 
+</div>
+{% endraw %}
 <script src="assets/js/calendar.js"></script>

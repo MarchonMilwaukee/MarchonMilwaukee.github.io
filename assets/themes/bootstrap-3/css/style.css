@@ -653,4 +653,37 @@ input.btn {
   #calendar .mobile-controls {
     display: block;
   }
+  .show-mobile {
+    display: inherit!important;
+  }
+  .hide-mobile {
+    display: none;
+  }
+
+}
+
+#calendar .week .event-list table td {
+  border: none;
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid #F0F0F0;
+  padding-top: 30px;
+}
+
+#calendar .week .event-list table td > div {
+  min-height: 100px
+}
+
+#calendar .week .event-list a {
+  color: #FF8526;
+  cursor: pointer;
+}
+
+#calendar .week .event-list .dow {
+  width: 200px;
+  color: #FC584A;
+}
+
+.show-mobile {
+  display: none;
 }

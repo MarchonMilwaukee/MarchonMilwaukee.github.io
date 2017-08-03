@@ -1,3 +1,34 @@
+Vue.component('weekday', {
+  template: document.getElementById("weekday-template").innerText,
+  props: ['date', 'events'],
+  methods: {
+    starting: function(event) {
+      var timing = new Date(event.starts_at);
+      return this.formatDate(timing, "h:mm a");
+    },
+    formatDate: function(date, format) {
+      if(format === "short") {
+        return date.getMonth() + 1 + "/" + date.getDate();
+      } else if (format === "long") {
+        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate();
+      } else if (format === "longtime") {
+        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate() + " at " + (date.getHours() + 1);
+      } else {
+        return moment(date).format(format)
+      }
+    },
+    weekdayName: function(weekday) {
+      if(weekday === 0) return "Sunday";
+      if(weekday === 1) return "Monday";
+      if(weekday === 2) return "Tuesday";
+      if(weekday === 3) return "Wednesday";
+      if(weekday === 4) return "Thursday";
+      if(weekday === 5) return "Friday";
+      if(weekday === 6) return "Saturday";
+    }
+  }
+})
+
 new Vue({
   el: "#calendar",
   data: {
@@ -133,6 +164,7 @@ new Vue({
 
       return events;
     },
+
     eventsOnWeek: function(date) {
       // Get a list of all of the events that happen
       // in the week starting at <date>
@@ -210,13 +242,13 @@ new Vue({
     },
     starting: function(event) {
       var timing = new Date(event.starts_at);
-      return this.formatDate(timing, "longtime");
+      return this.formatDate(timing, "h:mm a");
     },
     ending: function(event) {
       var start = new moment(event.starts_at);
       var end = new moment(event.ends_at);
       if(start.isSame(end, 'day')) {
-        return this.formatDate(new Date(event.ends_at), "longtime")
+        return this.formatDate(new Date(event.ends_at), "h:mm a")
       } else {
         return "";
       }
@@ -228,6 +260,8 @@ new Vue({
         return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate();
       } else if (format === "longtime") {
         return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate() + " at " + (date.getHours() + 1);
+      } else {
+        return moment(date).format(format)
       }
     },
     weekdayName: function(weekday) {
