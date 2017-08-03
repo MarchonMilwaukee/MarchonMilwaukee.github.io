@@ -1,0 +1,29 @@
+{% raw %}
+<script id="weekday-template" type="text/x-template">
+<li>
+  <table>
+    <tr class="show-mobile">
+      <td colspan="2" style="border: none;">
+        <div class="dow">{{ date }}</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="hide-mobile" style="padding-left: 0px;">
+        <div class="dow">{{ date }}</div>
+      </td>
+      <td>
+        <div v-for="event in events">
+          <div class="dateline">
+            <a v-bind:href="event.permalink">{{ event.title }}</a>
+            {{ starting(event) }}
+            <span v-if="event.location">
+              at {{ event.location }}
+            </span>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</li>
+</script>
+{% endraw %}
