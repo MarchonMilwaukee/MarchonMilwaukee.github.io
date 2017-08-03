@@ -136,13 +136,22 @@ new Vue({
     eventsOnWeek: function(date) {
       // Get a list of all of the events that happen
       // in the week starting at <date>
+
       var weekEvents = [];
-      var sunday = new Date(this.currentYear, this.currentMonth, date);
-        sunday.setDate(sunday.getDate() - sunday.getDay());
+      // var sunday = new Date(this.currentYear, this.currentMonth, date);
+      //   sunday.setDate(sunday.getDate() - sunday.getDay());
+
+      var clone = function(d) {
+        return new Date(
+          JSON.parse(
+            JSON.stringify(d)
+          )
+        )
+      }
 
       for(var i=0; i<7; ++i) {
-        var today = new Date(sunday);
-          today.setDate(today.getDate() + i);
+        var today = clone(date);
+        today.setDate(clone(date).getDate() + i);
         weekEvents = weekEvents.concat(this.eventsOnDate(today));
       }
 
@@ -216,9 +225,9 @@ new Vue({
       if(format === "short") {
         return date.getMonth() + 1 + "/" + date.getDate();
       } else if (format === "long") {
-        return this.weekdayName(date.getDay()) + " " + date.getMonth() + "/" + date.getDate();
+        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate();
       } else if (format === "longtime") {
-        return this.weekdayName(date.getDay()) + " " + date.getMonth() + "/" + date.getDate() + " at " + (date.getHours() + 1);
+        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate() + " at " + (date.getHours() + 1);
       }
     },
     weekdayName: function(weekday) {

@@ -6,6 +6,7 @@ group: footer
 sidebar: false
 ---
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
 <script src="https://unpkg.com/vue"></script>
 <script>
 window.events = [
@@ -85,12 +86,12 @@ window.events = [
       <div id="next-month" class="btn" v-on:click="next">Next&nbsp; &rarr;</div>
     </div>
     <ul class="event-list">
-      <li v-for="event in eventsOnWeek(date(currentMonth, currentWeek + 1, 0))" class="event">
+      <li v-for="event in eventsOnWeek(dateO(currentMonth, currentWeek, 0))" class="event">
         <h3><a v-bind:href="event.permalink">{{ event.title }}</a></h3>
         <div class="dateline">{{ starting(event) }} to {{ ending(event) }}</div>
       </li>
     </ul>
-    <div v-if="eventsOnWeek(date(currentMonth, currentWeek + 1, 0)).length === 0">
+    <div v-if="eventsOnWeek(dateO(currentMonth, currentWeek, 0)).length === 0">
       No events found.
     </div>
   </div>
