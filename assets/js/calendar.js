@@ -1,0 +1,234 @@
+new Vue({
+  el: "#calendar",
+  data: {
+    events: window.events,
+    today: new Date(),
+    currentMonth: new Date().getMonth(),
+    currentYear: new Date().getFullYear(),
+    display: "week",
+    currentWeek: parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1
+  },
+  created: function() {
+    document.addEventListener("keydown", function(e) {
+      if(e.key == "ArrowRight" || e.code == "ArrowRight") {
+        this.next();
+      } else if (e.key == "ArrowLeft" || e.code == "ArrowLeft") {
+        this.previous();
+      }
+    }.bind(this));
+
+    // If the window gets to small, automatically
+    // kick the user to weekly view
+    window.addEventListener("resize", function(event) {
+      if(jQuery(window).width() < 768) {
+        this.display = "week";
+      }
+    }.bind(this))
+  },
+  computed: {
+    currentMonthName: function() {
+      return ["January", "February", "March", "April", "May", "June", "July",
+        "August", "September", "October", "November", "December"][this.currentMonth];
+    },
+    weeks: function() {
+      var beginningOfMonth = new Date(this.currentYear, this.currentMonth, 1);
+      var endOfMonth = new Date(this.currentYear, this.currentMonth + 1, 0);
+      var daysInMonth = endOfMonth.getDate();
+      var offset = beginningOfMonth.getDay();
+      var totalWeeks = Math.ceil((daysInMonth + offset) / 7);
+      return totalWeeks;
+    },
+  },
+  methods: {
+    date: function(currentMonth, week, day) {
+      week = week - 1;
+      var beginningOfMonth = new Date(this.currentYear, this.currentMonth, 1);
+      var endOfMonth = new Date(this.currentYear, this.currentMonth + 1, 1);
+      endOfMonth.setDate(-1)
+      var daysInMonth = endOfMonth.getDate();
+      var offset = beginningOfMonth.getDay();
+      var date = ((week * 7) + day - offset + 1);
+      if((week === 0 && day < offset) || (day + (week * 7) > (daysInMonth + offset - 1))) {
+        if(this.display == "month") {
+          return "";
+        } else {
+          if(date - daysInMonth < 0) {
+            beginningOfMonth.setDate(0);
+            return beginningOfMonth.getDate();
+          } else {
+            return date - daysInMonth;
+          }
+        }
+      } else {
+        return date;
+      }
+    },
+    dateO: function(currentMonth, week, day) {
+      week = week - 1;
+      var beginningOfMonth = new Date(this.currentYear, this.currentMonth, 1);
+      var endOfMonth = new Date(this.currentYear, this.currentMonth + 1, 1);
+      endOfMonth.setDate(-1)
+      var daysInMonth = endOfMonth.getDate();
+      var offset = beginningOfMonth.getDay();
+      var date = ((week * 7) + day - offset + 1);
+
+      var target = new Date(this.currentYear, this.currentMonth, 1)
+      target.setDate(date);
+      return target;
+    },
+    isToday: function(date) {
+      date = new Date(this.currentYear, this.currentMonth, date)
+      return this.formatDate(this.today, 'short')== this.formatDate(date, 'short');
+    },
+    month: function(currentMonth, week, day) {
+      week = week - 1;
+      var beginningOfMonth = new Date(this.currentYear, this.currentMonth, 1);
+      var endOfMonth = new Date(this.currentYear, this.currentMonth + 1, 0);
+      var daysInMonth = endOfMonth.getDate();
+      var offset = beginningOfMonth.getDay();
+
+      if((week * 7 + day - offset + 1) > daysInMonth) {
+        return currentMonth + 2;
+      } else if ((week * 7 + day - offset + 1) <= 0) {
+        return currentMonth;
+      } else {
+        return currentMonth + 1;
+      }
+    },
+    nextMonth: function() {
+      this.currentMonth++;
+      if(this.currentMonth > 11) {
+        this.currentMonth = 0;
+        this.currentYear++;
+      }
+    },
+    previousMonth: function() {
+      this.currentMonth--;
+      if(this.currentMonth < 0) {
+        this.currentMonth = 11;
+        this.currentYear--;
+      }
+    },
+    goToMonth: function(month, year) {
+      this.currentMonth = month;
+      this.currentYear = year;
+    },
+    goToToday: function() {
+      this.goToMonth(this.today.getMonth(), this.today.getFullYear())
+      this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1;
+    },
+    eventsOnDay: function(date) {
+      var today = new Date(this.currentYear, this.currentMonth, date);
+      return this.eventsOnDate(today);
+    },
+    eventsOnDate: function(date) {
+      var events = [];
+      for(var i = 0; i < window.events.length; i++) {
+        var event = window.events[i];
+        if(this.eventHappensOn(event, date)) {
+          events.push(event)
+        }
+      }
+      events.sort(function(a,b) { return a.starts_at >= b.starts_at })
+
+      return events;
+    },
+    eventsOnWeek: function(date) {
+      // Get a list of all of the events that happen
+      // in the week starting at <date>
+      var weekEvents = [];
+      var sunday = new Date(this.currentYear, this.currentMonth, date);
+        sunday.setDate(sunday.getDate() - sunday.getDay());
+
+      for(var i=0; i<7; ++i) {
+        var today = new Date(sunday);
+          today.setDate(today.getDate() + i);
+        weekEvents = weekEvents.concat(this.eventsOnDate(today));
+      }
+
+      // Filter out duplicates
+      weekEvents = weekEvents.filter(function(value, index, self) {
+        return self.indexOf(value) === index;
+      })
+
+      return weekEvents;
+    },
+    eventHappensOn: function(event, day) {
+      var start = event.starts_at;
+      var end = event.ends_at;
+
+      return (day.getDate() >= start.getDate() && day.getMonth() >= start.getMonth() && day.getFullYear() >= end.getFullYear())
+          && (day.getDate() <= end.getDate() && day.getMonth() <= end.getMonth() && day.getFullYear() <= end.getFullYear());
+    },
+    displayMonth: function() {
+      this.display = "month";
+    },
+    displayWeek: function() {
+      this.display = "week";
+      if(this.today.getMonth() == this.currentMonth) {
+        this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7);
+      } else {
+        this.currentWeek = 1;
+      }
+    },
+    previous: function() {
+      if(this.display == "month") {
+        this.previousMonth()
+      } else {
+        this.previousWeek();
+      }
+    },
+    next: function() {
+      if(this.display == "month") {
+        this.nextMonth();
+      } else {
+        this.nextWeek();
+      }
+    },
+    nextWeek: function() {
+      this.currentWeek++;
+      if(this.currentWeek > (this.weeks - 1)) {
+        this.currentWeek = 1;
+        this.nextMonth();
+      }
+    },
+    previousWeek: function() {
+      this.currentWeek--;
+      if(this.currentWeek <= 0) {
+        this.previousMonth();
+        this.currentWeek = this.weeks - 1;
+      }
+    },
+    starting: function(event) {
+      var timing = new Date(event.starts_at);
+      return this.formatDate(timing, "longtime");
+    },
+    ending: function(event) {
+      var start = new moment(event.starts_at);
+      var end = new moment(event.ends_at);
+      if(start.isSame(end, 'day')) {
+        return this.formatDate(new Date(event.ends_at), "longtime")
+      } else {
+        return "";
+      }
+    },
+    formatDate: function(date, format) {
+      if(format === "short") {
+        return date.getMonth() + 1 + "/" + date.getDate();
+      } else if (format === "long") {
+        return this.weekdayName(date.getDay()) + " " + date.getMonth() + "/" + date.getDate();
+      } else if (format === "longtime") {
+        return this.weekdayName(date.getDay()) + " " + date.getMonth() + "/" + date.getDate() + " at " + (date.getHours() + 1);
+      }
+    },
+    weekdayName: function(weekday) {
+      if(weekday === 0) return "Sunday";
+      if(weekday === 1) return "Monday";
+      if(weekday === 2) return "Tuesday";
+      if(weekday === 3) return "Wednesday";
+      if(weekday === 4) return "Thursday";
+      if(weekday === 5) return "Friday";
+      if(weekday === 6) return "Saturday";
+    }
+  }
+})

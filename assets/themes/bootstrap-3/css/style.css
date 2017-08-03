@@ -565,3 +565,91 @@ p.pink, p.pink a {
 input.btn {
   background-color: #FF8526;
 }
+
+#calendar {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+#calendar table {
+  width: 100%;
+}
+#calendar .controls {
+  text-align: right;
+  margin-bottom: 24px;
+}
+#calendar .controls > * {
+  display: inline-block;
+}
+
+#calendar table td {
+  width: 14.28%;
+  height: 120px;
+  border: 1px solid #CCC;
+  vertical-align: top;
+  padding: 10px;
+}
+
+#calendar table td.today {
+  background-color: #F5F5F5;
+}
+
+#calendar table td ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#calendar table .event a {
+  color: #FC584A!important;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+#calendar table .event:hover {
+  text-decoration: underline;
+}
+
+#calendar .btn {
+  border: 1px solid #CCC;
+}
+
+#calendar #current-month {
+  padding: 6px 12px;
+}
+
+#calendar table .date {
+  margin-bottom: 5px;
+}
+
+#calendar .controls .view-picker .selected {
+  background-color: #EEE;
+}
+
+#calendar .controls .view-picker {
+  float: left;
+}
+
+#calendar .controls .dropdown-menu a {
+  cursor: pointer;
+}
+
+#calendar .mobile-controls {
+  display: none;
+}
+
+#calendar .event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media(max-width: 768px) {
+  #calendar .controls {
+    display: none;
+  }
+  #calendar .mobile-controls {
+    display: block;
+  }
+}
