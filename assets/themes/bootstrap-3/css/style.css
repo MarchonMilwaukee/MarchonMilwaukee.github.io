@@ -97,7 +97,7 @@ h1
 
 
 
-@media (min-width: 768px)
+@media (min-width: 942px)
 {
     .navbar-nav {
         float: right;
@@ -314,7 +314,7 @@ h1
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 941px) {
   .sidebar {
     display: none;
   }
