@@ -84,7 +84,7 @@ window.events = [
     <h1>
       Events happening {{ formatDate(dateO(currentMonth, currentWeek, 0), 'short') }} - {{ formatDate(dateO(currentMonth, currentWeek, 6), 'short') }}
     </h1>
-    <div class="btn-group mobile-controls">
+    <div class="btn-group mobile-controls btn-group-justified">
       <div id="previous-month" class="btn" v-on:click="previous">&larr;&nbsp; Previous</div>
       <div id="next-month" class="btn" v-on:click="next">Next&nbsp; &rarr;</div>
     </div>

@@ -637,6 +637,7 @@ input.btn {
 
 #calendar .mobile-controls {
   display: none;
+  margin: 20px 0;
 }
 
 #calendar .event-list {
@@ -686,4 +687,18 @@ input.btn {
 
 .show-mobile {
   display: none;
+}
+
+@media (max-width: 768px) {
+  #calendar .week .event-list table td > div {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  #calendar .week .event-list table td > .dow {
+    margin-bottom: 10px;
+  }
+
+  #calendar .week .event-list table td {
+    padding-top: 15px;
+  }
 }

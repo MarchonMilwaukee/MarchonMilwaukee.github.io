@@ -1,0 +1,37 @@
+---
+theme :
+  name : bootstrap-3
+layout: default
+---
+<style type="text/css">
+    #header
+    {
+        background: linear-gradient(#FF8526, #FF2492);
+    }
+    #header:before {  
+      content: "{{ page.title }}";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%) skewX(-15deg);
+      background: none;
+      text-transform: uppercase;
+      font-family: mainFont;
+      font-size: 5em;
+      background-color: #FFF;
+      height: auto;
+      width: auto;
+      color: #000;
+      padding: 10px 20px;
+      line-height: 80%;
+    }
+</style>
+
+{% include JB/setup %}
+
+<div class="row">
+  <div class="col-xs-12">
+    {{ content }}
+  </div>
+</div>
+
