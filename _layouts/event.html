@@ -25,12 +25,22 @@ layout: default
       padding: 10px 20px;
       line-height: 80%;
     }
+
+    @media (max-width: 768px) {
+      #header:before {
+        font-size: 3em;
+      }
+    }
 </style>
 
 {% include JB/setup %}
 
 <div class="row">
   <div class="col-xs-12">
+    <div class="sidebar show-mobile mobile">
+       {% capture path %}sidebars/{{page.sidebar}}.html{% endcapture %}
+       {% include {{path}} %}
+    </div>
     {{ content }}
   </div>
 </div>

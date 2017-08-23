@@ -702,3 +702,11 @@ input.btn {
     padding-top: 15px;
   }
 }
+
+.mobile.sidebar {
+  margin-top: -30px;
+  width: auto;
+  flex: none;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
