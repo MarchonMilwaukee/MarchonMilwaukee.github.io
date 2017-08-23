@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Crossing the Line"
+title: "Crossing the Line (Racine)"
 starts_at: "2017-09-06T13:00Z"
 ends_at: "2017-09-06T23:00Z"
 location: "Wisconsin Historical Society, Racine Public Library"

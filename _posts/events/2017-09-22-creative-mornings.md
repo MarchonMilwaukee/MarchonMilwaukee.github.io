@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "CreativeMornings/Milwaukee"
+title: "CreativeMornings / Milwaukee"
 starts_at: "2017-09-22T14:00Z"
 ends_at: "2017-09-22T16:00Z"
 location: "TBD"

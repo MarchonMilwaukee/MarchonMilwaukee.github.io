@@ -70,7 +70,7 @@ window.events = [
     </thead>
     <tbody>
       <tr v-for="week in weeks">
-        <td v-for="day in [0,1,2,3,4,5,6]" v-bind:class="{today: isToday(date(currentMonth, week, day))}">
+        <td v-for="day in [0,1,2,3,4,5,6]" v-bind:class="{today: isToday(date(currentMonth, week, day))}" style="width: 14.28%;">
           <div class="date">{{ date(currentMonth, week, day) }}</div>
           <ul v-if="date(currentMonth, week, day) != ''">
             <li v-for="event in eventsOnDay(date(currentMonth, week, day))" class="event">

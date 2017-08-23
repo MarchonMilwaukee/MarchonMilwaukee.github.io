@@ -1,10 +1,10 @@
 ---
 layout: event
 sidebar: event
-title: "Crossing the Line"
-starts_at: "2017-09-06T13:00Z"
-ends_at: "2017-09-06T23:00Z"
-location: "Wisconsin Historical Society, Racine Public Library"
+title: "Crossing the Line (Oak Creek)"
+starts_at: "2017-09-25T13:00Z"
+ends_at: "2017-09-25T23:00Z"
+location: "Wisconsin Historical Society, Oak Creek Public Library"
 ---
 
 ## The Milwaukee Fair Housing Marches of 1967-1968 (Exhibit opening) 

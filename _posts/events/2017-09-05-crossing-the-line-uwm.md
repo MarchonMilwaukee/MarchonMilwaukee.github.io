@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Crossing the Line"
+title: "Crossing the Line (UWM)"
 starts_at: "2017-09-05T13:00Z"
 ends_at: "2017-09-05T23:00Z"
 location: "Wisconsin Historical Society and UW-Milwaukee"

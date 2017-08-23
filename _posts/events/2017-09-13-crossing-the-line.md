@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Crossing the Line (Exhibit opening)"
+title: "Crossing the Line (Princeton Library)"
 starts_at: "2017-09-13T13:00Z"
 ends_at: "2017-09-13T23:00Z"
 location: "Princeton Public Library"
