@@ -88,7 +88,7 @@ window.events = [
       <div id="previous-month" class="btn" v-on:click="previous">&larr;&nbsp; Previous</div>
       <div id="next-month" class="btn" v-on:click="next">Next&nbsp; &rarr;</div>
     </div>
-    <ul class="event-list">
+    <div style="display: table" class="event-list">
       <weekday :date="formatDate(dateO(currentMonth, currentWeek, 0), 'long')"
                :events="eventsOnDate(dateO(currentMonth, currentWeek, 0))"></weekday>
       <weekday :date="formatDate(dateO(currentMonth, currentWeek, 1), 'long')"
@@ -103,7 +103,7 @@ window.events = [
                :events="eventsOnDate(dateO(currentMonth, currentWeek, 5))"></weekday>
       <weekday :date="formatDate(dateO(currentMonth, currentWeek, 6), 'long')"
                :events="eventsOnDate(dateO(currentMonth, currentWeek, 6))"></weekday>
-    </ul>
+    </div>
   </div>
 
 </div>

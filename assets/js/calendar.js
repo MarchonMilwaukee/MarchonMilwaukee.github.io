@@ -29,15 +29,33 @@ Vue.component('weekday', {
   }
 })
 
+var view = function() {
+  if(window.localStorage) {
+    return localStorage.getItem("view") || "month";
+  } else {
+    return "month";
+  }
+}
+
+var today = function() {
+  if(window.location.hash) {
+    var date = window.location.hash.substring(2);
+    var parts = date.split("-");
+    return new Date(parts[0], parseInt(parts[1]) - 1, parts[2]);
+  } else {
+    return new Date();
+  }
+}
+
 new Vue({
   el: "#calendar",
   data: {
     events: window.events,
     today: new Date(),
-    currentMonth: new Date().getMonth(),
-    currentYear: new Date().getFullYear(),
-    display: "week",
-    currentWeek: parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1
+    currentMonth: today().getMonth(),
+    currentYear: today().getFullYear(),
+    display: view(),
+    currentWeek: parseInt((today().getDate() + (new Date(today().getFullYear(), today().getMonth(), 1).getDay())) / 7) + 1
   },
   created: function() {
     document.addEventListener("keydown", function(e) {
@@ -143,10 +161,12 @@ new Vue({
     goToMonth: function(month, year) {
       this.currentMonth = month;
       this.currentYear = year;
+      this.setHash();
     },
     goToToday: function() {
       this.goToMonth(this.today.getMonth(), this.today.getFullYear())
       this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1;
+      this.setHash();
     },
     eventsOnDay: function(date) {
       var today = new Date(this.currentYear, this.currentMonth, date);
@@ -201,13 +221,27 @@ new Vue({
       return (day.getDate() >= start.getDate() && day.getMonth() >= start.getMonth() && day.getFullYear() >= end.getFullYear())
           && (day.getDate() <= end.getDate() && day.getMonth() <= end.getMonth() && day.getFullYear() <= end.getFullYear());
     },
+    setHash: function() {
+      var date = new Date();
+      if(this.display == "month") {
+        date = new Date(this.currentYear, this.currentMonth, 1);
+      } else {
+        date = this.dateO(this.currentMonth, this.currentWeek, 0);
+      }
+      var hash = moment(date).format("YYYY-MM-DD");
+      window.location.href="#!" + hash;
+    },
     displayMonth: function() {
       this.display = "month";
+      if(window.localStorage) {
+        localStorage.setItem("view", "month");
+      }
     },
     displayWeek: function() {
       this.display = "week";
+      localStorage.setItem("view", "week");
       if(this.today.getMonth() == this.currentMonth) {
-        this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7);
+        this.currentWeek = parseInt((today().getDate() + (new Date(today().getFullYear(), today().getMonth(), 1).getDay())) / 7);
       } else {
         this.currentWeek = 1;
       }
@@ -218,6 +252,7 @@ new Vue({
       } else {
         this.previousWeek();
       }
+      this.setHash();
     },
     next: function() {
       if(this.display == "month") {
@@ -225,6 +260,7 @@ new Vue({
       } else {
         this.nextWeek();
       }
+      this.setHash();
     },
     nextWeek: function() {
       this.currentWeek++;
