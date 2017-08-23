@@ -53,7 +53,7 @@
       <nav class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+          <button style="margin-top: -20px;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -79,15 +79,17 @@
         <div class="main">
           {{ content }}
         </div>
-        <div class="sidebar">
-           {% assign path = '' %}
-           {% assign sidebar = page.sidebar %}
-           {% if sidebar == null %}
-             {% assign sidebar = 'default' %}
-           {% endif %}
-           {% capture path %}sidebars/{{sidebar}}.html{% endcapture %}
-           {% include {{path}} %}
-        </div>
+        {% assign path = '' %}
+        {% assign sidebar = page.sidebar %}
+        {% if sidebar != false %}
+          <div class="sidebar">
+             {% if sidebar == null %}
+               {% assign sidebar = 'default' %}
+             {% endif %}
+             {% capture path %}sidebars/{{sidebar}}.html{% endcapture %}
+             {% include {{path}} %}
+          </div>
+        {% endif %}
 
       </div>
 

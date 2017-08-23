@@ -1,0 +1,24 @@
+<div class="event-sidebar" style="background-color: #E6E1DD; color: #FC584A; padding: 20px; font-weight: normal; font-size: 0.9em">
+  <div class="location">
+    {{ page.location }}
+  </div>
+
+  <br />
+  <div class="start">
+    Starts: 
+    <br />
+    {{ page.starts_at | date:"%b %-d, %Y at %I:%M%P" }}
+  </div>
+  <div class="end" style="margin-top: 15px;">
+    Ends: 
+    <br />
+    {{ page.ends_at | date:"%b %-d, %y at %I:%M%P" }}
+  </div>
+
+  {% if page.additional_info %}
+    <br />
+    <div class="additional">
+      {{ page.additional_info }}
+    </div>
+  {% endif %}
+</div>

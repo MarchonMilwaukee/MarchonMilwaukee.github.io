@@ -565,3 +565,148 @@ p.pink, p.pink a {
 input.btn {
   background-color: #FF8526;
 }
+
+#calendar {
+  width: 100%;
+  margin-bottom: 150px;
+}
+
+#calendar table {
+  width: 100%;
+}
+#calendar .controls {
+  text-align: right;
+  margin-bottom: 24px;
+}
+#calendar .controls > * {
+  display: inline-block;
+}
+
+#calendar table td {
+  width: 14.28%;
+  height: 120px;
+  border: 1px solid #CCC;
+  vertical-align: top;
+  padding: 10px;
+}
+
+#calendar table td.today {
+  background-color: #F5F5F5;
+}
+
+#calendar table td ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#calendar table .event a {
+  color: #FC584A!important;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+}
+#calendar table .event:hover {
+  text-decoration: underline;
+}
+
+#calendar .btn {
+  border: 1px solid #CCC;
+}
+
+#calendar #current-month {
+  padding: 6px 12px;
+}
+
+#calendar table .date {
+  margin-bottom: 5px;
+}
+
+#calendar .controls .view-picker .selected {
+  background-color: #EEE;
+}
+
+#calendar .controls .view-picker {
+  float: left;
+}
+
+#calendar .controls .dropdown-menu a {
+  cursor: pointer;
+}
+
+#calendar .mobile-controls {
+  display: none;
+  margin: 20px 0;
+}
+
+#calendar .event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+@media(max-width: 768px) {
+  #calendar .controls {
+    display: none;
+  }
+  #calendar .mobile-controls {
+    display: block;
+  }
+  .show-mobile {
+    display: inherit!important;
+  }
+  .hide-mobile {
+    display: none;
+  }
+
+}
+
+#calendar .week .event-list table td {
+  border: none;
+  width: auto;
+  height: auto;
+  border-bottom: 1px solid #F0F0F0;
+  padding-top: 30px;
+}
+
+#calendar .week .event-list table td > div {
+  min-height: 100px
+}
+
+#calendar .week .event-list a {
+  color: #FF8526;
+  cursor: pointer;
+}
+
+#calendar .week .event-list .dow {
+  width: 200px;
+  color: #FC584A;
+}
+
+.show-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #calendar .week .event-list table td > div {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+  #calendar .week .event-list table td > .dow {
+    margin-bottom: 10px;
+  }
+
+  #calendar .week .event-list table td {
+    padding-top: 15px;
+  }
+}
+
+.mobile.sidebar {
+  margin-top: -30px;
+  width: auto;
+  flex: none;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
