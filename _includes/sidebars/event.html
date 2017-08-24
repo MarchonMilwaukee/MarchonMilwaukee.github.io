@@ -13,7 +13,14 @@
     Ends: 
     <br />
     {{ page.ends_at | date:"%b %-d, %y at %I:%M%P" }}
+    <br />
   </div>
+  {% if page.external_link %}
+    <div style="margin-top: 15px;">
+      Link:
+      <a href={{ page.external_link }}>Click Here</a>
+    </div>
+  {% endif %}
 
   {% if page.additional_info %}
     <br />
