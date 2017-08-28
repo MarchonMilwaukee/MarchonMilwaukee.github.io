@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "Open Housing: The Suburban Challenge Then, and Now"
-starts_at: "2017-09-21T00:00Z"
-ends_at: "2017-09-21T02:00Z"
+starts_at: "2017-09-20T19:00"
+ends_at: "2017-09-20T20:30"
 location: "Unitarian Universalist Church West (13001 W. North Ave., Brookfield, WI)"
 organization: "Unitarian Universalist Church"
 ---
