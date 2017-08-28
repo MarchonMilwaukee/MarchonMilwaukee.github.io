@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "Rid Racism Book Club"
-starts_at: "2017-09-14T19:00Z"
-ends_at: "2017-09-14T20:30Z"
+starts_at: "2017-09-14T19:00"
+ends_at: "2017-09-14T20:30"
 location: "Bethesda Church (2810 West Highland Boulevard)"
 organization: "Rid Racism Milwaukee"
 ---

@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "Rid Racism MKE Book Club "
-starts_at: "2017-09-07T19:00Z"
-ends_at: "2017-09-07T20:30Z"
+starts_at: "2017-09-07T19:00"
+ends_at: "2017-09-07T20:30"
 location: "Bethesda Church (2810 West Highland Boulevard)"
 organization: "Rid Racism Milwaukee"
 external_link: "https://www.eventbrite.com/e/rid-racism-mke-book-club-the-third-reconstruction-tickets-36300008302?aff=efbevent"
