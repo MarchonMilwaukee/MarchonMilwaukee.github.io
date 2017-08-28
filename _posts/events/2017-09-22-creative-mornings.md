@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "CreativeMornings / Milwaukee"
-starts_at: "2017-09-22T14:00Z"
-ends_at: "2017-09-22T16:00Z"
+starts_at: "2017-09-22T08:30Z"
+ends_at: "2017-09-22T10:00Z"
 location: "TBD"
 organization: "Creative Mornings"
 ---
