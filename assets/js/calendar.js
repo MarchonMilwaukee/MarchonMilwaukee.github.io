@@ -3,16 +3,16 @@ Vue.component('weekday', {
   props: ['date', 'events'],
   methods: {
     starting: function(event) {
-      var timing = new Date(event.starts_at);
-      return this.formatDate(timing, "h:mm a");
+      return this.formatDate(event.starts_at, "h:mm a");
     },
     formatDate: function(date, format) {
+      var rawDate = new Date(date);
       if(format === "short") {
-        return date.getMonth() + 1 + "/" + date.getDate();
+        return rawDate.getMonth() + 1 + "/" +rawDate.getDate();
       } else if (format === "long") {
-        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate();
+        return this.weekdayName(rawDate.getDay()) + " " + (rawDate.getMonth() + 1) + "/" + rawDate.getDate();
       } else if (format === "longtime") {
-        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate() + " at " + (date.getHours() + 1);
+        return this.weekdayName(rawDate.getDay()) + " " + (rawDate.getMonth() + 1) + "/" + rawDate.getDate() + " at " + (rawDate.getHours() + 1);
       } else {
         return moment(date).format(format)
       }
@@ -29,33 +29,15 @@ Vue.component('weekday', {
   }
 })
 
-var view = function() {
-  if(window.localStorage) {
-    return localStorage.getItem("view") || "month";
-  } else {
-    return "month";
-  }
-}
-
-var today = function() {
-  if(window.location.hash) {
-    var date = window.location.hash.substring(2);
-    var parts = date.split("-");
-    return new Date(parts[0], parseInt(parts[1]) - 1, parts[2]);
-  } else {
-    return new Date();
-  }
-}
-
 new Vue({
   el: "#calendar",
   data: {
     events: window.events,
     today: new Date(),
-    currentMonth: today().getMonth(),
-    currentYear: today().getFullYear(),
-    display: view(),
-    currentWeek: parseInt((today().getDate() + (new Date(today().getFullYear(), today().getMonth(), 1).getDay())) / 7) + 1
+    currentMonth: new Date().getMonth(),
+    currentYear: new Date().getFullYear(),
+    display: "week",
+    currentWeek: parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1
   },
   created: function() {
     document.addEventListener("keydown", function(e) {
@@ -161,12 +143,10 @@ new Vue({
     goToMonth: function(month, year) {
       this.currentMonth = month;
       this.currentYear = year;
-      this.setHash();
     },
     goToToday: function() {
       this.goToMonth(this.today.getMonth(), this.today.getFullYear())
       this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1;
-      this.setHash();
     },
     eventsOnDay: function(date) {
       var today = new Date(this.currentYear, this.currentMonth, date);
@@ -215,33 +195,15 @@ new Vue({
       return weekEvents;
     },
     eventHappensOn: function(event, day) {
-      var start = event.starts_at;
-      var end = event.ends_at;
-
-      return (day.getDate() >= start.getDate() && day.getMonth() >= start.getMonth() && day.getFullYear() >= end.getFullYear())
-          && (day.getDate() <= end.getDate() && day.getMonth() <= end.getMonth() && day.getFullYear() <= end.getFullYear());
-    },
-    setHash: function() {
-      var date = new Date();
-      if(this.display == "month") {
-        date = new Date(this.currentYear, this.currentMonth, 1);
-      } else {
-        date = this.dateO(this.currentMonth, this.currentWeek, 0);
-      }
-      var hash = moment(date).format("YYYY-MM-DD");
-      window.location.href="#!" + hash;
+      return event.starts_at.isSame(moment(day), 'day') || event.ends_at.isSame(moment(day), 'day');
     },
     displayMonth: function() {
       this.display = "month";
-      if(window.localStorage) {
-        localStorage.setItem("view", "month");
-      }
     },
     displayWeek: function() {
       this.display = "week";
-      localStorage.setItem("view", "week");
       if(this.today.getMonth() == this.currentMonth) {
-        this.currentWeek = parseInt((today().getDate() + (new Date(today().getFullYear(), today().getMonth(), 1).getDay())) / 7);
+        this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7);
       } else {
         this.currentWeek = 1;
       }
@@ -252,7 +214,6 @@ new Vue({
       } else {
         this.previousWeek();
       }
-      this.setHash();
     },
     next: function() {
       if(this.display == "month") {
@@ -260,7 +221,6 @@ new Vue({
       } else {
         this.nextWeek();
       }
-      this.setHash();
     },
     nextWeek: function() {
       this.currentWeek++;
@@ -277,8 +237,7 @@ new Vue({
       }
     },
     starting: function(event) {
-      var timing = new Date(event.starts_at);
-      return this.formatDate(timing, "h:mm a");
+      return this.formatDate(event.starts_at, "h:mm a");
     },
     ending: function(event) {
       var start = new moment(event.starts_at);
@@ -290,12 +249,13 @@ new Vue({
       }
     },
     formatDate: function(date, format) {
+      var rawDate = new Date(date);
       if(format === "short") {
-        return date.getMonth() + 1 + "/" + date.getDate();
+        return rawDate.getMonth() + 1 + "/" +rawDate.getDate();
       } else if (format === "long") {
-        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate();
+        return this.weekdayName(rawDate.getDay()) + " " + (rawDate.getMonth() + 1) + "/" + rawDate.getDate();
       } else if (format === "longtime") {
-        return this.weekdayName(date.getDay()) + " " + (date.getMonth() + 1) + "/" + date.getDate() + " at " + (date.getHours() + 1);
+        return this.weekdayName(rawDate.getDay()) + " " + (rawDate.getMonth() + 1) + "/" + rawDate.getDate() + " at " + (rawDate.getHours() + 1);
       } else {
         return moment(date).format(format)
       }
