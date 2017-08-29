@@ -2,7 +2,7 @@
 layout: page
 title: Calendar
 header: Calendar by calendar
-group: navigation
+group: footer
 sidebar: false
 ---
 
@@ -13,8 +13,8 @@ window.events = [
   {% for post in site.posts %}
   {
     "title": "{{ post.title }}",
-    "starts_at": new Date("{{ post.starts_at }}"),
-    "ends_at": new Date("{{ post.ends_at }}"),
+    "starts_at": moment("{{ post.starts_at }}"),
+    "ends_at": moment("{{ post.ends_at }}"),
     "location": "{{ post.location}}",
     "permalink": "{{ post.url }}"
   }
@@ -70,7 +70,7 @@ window.events = [
     </thead>
     <tbody>
       <tr v-for="week in weeks">
-        <td v-for="day in [0,1,2,3,4,5,6]" v-bind:class="{today: isToday(date(currentMonth, week, day))}" style="width: 14.28%;">
+        <td v-for="day in [0,1,2,3,4,5,6]" v-bind:class="{today: isToday(date(currentMonth, week, day))}">
           <div class="date">{{ date(currentMonth, week, day) }}</div>
           <ul v-if="date(currentMonth, week, day) != ''">
             <li v-for="event in eventsOnDay(date(currentMonth, week, day))" class="event">
@@ -84,11 +84,11 @@ window.events = [
     <h1>
       Events happening {{ formatDate(dateO(currentMonth, currentWeek, 0), 'short') }} - {{ formatDate(dateO(currentMonth, currentWeek, 6), 'short') }}
     </h1>
-    <div class="btn-group mobile-controls btn-group-justified">
+    <div class="btn-group mobile-controls">
       <div id="previous-month" class="btn" v-on:click="previous">&larr;&nbsp; Previous</div>
       <div id="next-month" class="btn" v-on:click="next">Next&nbsp; &rarr;</div>
     </div>
-    <div style="display: table" class="event-list">
+    <ul class="event-list">
       <weekday :date="formatDate(dateO(currentMonth, currentWeek, 0), 'long')"
                :events="eventsOnDate(dateO(currentMonth, currentWeek, 0))"></weekday>
       <weekday :date="formatDate(dateO(currentMonth, currentWeek, 1), 'long')"
@@ -103,7 +103,7 @@ window.events = [
                :events="eventsOnDate(dateO(currentMonth, currentWeek, 5))"></weekday>
       <weekday :date="formatDate(dateO(currentMonth, currentWeek, 6), 'long')"
                :events="eventsOnDate(dateO(currentMonth, currentWeek, 6))"></weekday>
-    </div>
+    </ul>
   </div>
 
 </div>
