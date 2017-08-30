@@ -4,7 +4,7 @@ sidebar: event
 title: "MKE Tours (for Milwaukeeans): March On Milwaukee 50th"
 starts_at: "2017-09-09T10:00"
 ends_at: "2017-09-09T14:00"
-location: "Beginning at Haymarket Associated Bank"
+location: "Beginning at Haymarket Associated Bank (1301 N Doctor M.L.K. Dr, Milwaukee, WI)"
 organization: "Newaukee"
 external_link: "https://www.eventbrite.com/e/milwaukee-tour-for-milwaukeeans-march-on-milwaukee-50th-anniversary-pt-1-tickets-36161905232"
 ---
@@ -16,3 +16,5 @@ This is one of two March On Milwaukee 50th tours, whose route and itinerary are 
 The tour will include a 6 stops, as well as food/snacks along the route. Be prepared to get off the bus and explore.
 
 The second tour in this series will take place on November 4th.
+
+[Buy tickets here.](http://200nightsoffreedom.org/2017/09/09/detour-by-carr)
