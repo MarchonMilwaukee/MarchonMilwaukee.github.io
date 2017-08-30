@@ -13,4 +13,4 @@ location: "UW-Milwaukee Libraries"
 
 Interact with a traveling exhibit created by the Wisconsin Historical Society while its at the UW-Milwaukee Libraries. "Crossing the Line: The Fair Housing Marches of 1967-1968" examines the practices and prejudices that led to segregation in Milwaukee and chronicles the school desegregation and fair housing movements of the 1960s.       
 
-The exhibit is on display at the [University of Wisconsin-Milwaukee Libraries](http://uwm.edu/libraries/) (2311 East Hartford Avenue • Milwaukee, WI) from 8/16/17 to 9/5/17.
+The exhibit is on display at the [University of Wisconsin-Milwaukee Libraries](http://uwm.edu/libraries/) (2311 East Hartford Avenue, Milwaukee, WI) from 8/16/17 to 9/5/17.
