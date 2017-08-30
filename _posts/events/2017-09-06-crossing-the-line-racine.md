@@ -13,4 +13,4 @@ The traveling display "Crossing the Line: The Milwaukee Fair Housing Marches of 
  
 The eight panels of "Crossing the Line" tell the story of Milwaukee's civil rights marches in simple language, with reproductions of 33 historic photographs and documents. The display was created by the [Wisconsin Historical Society](https://www.wisconsinhistory.org//Records/Article/CS15090) and is most suitable for secondary schools and the general public.
  
-The exhibit will be on display at the Racine Public Library (75 7th St, Racine, WI) from 9/6/17 to 9/21/17.
+The exhibit is on display at the Racine Public Library (75 7th St, Racine, WI) from 9/6/17 to 9/21/17.
