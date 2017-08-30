@@ -6,7 +6,6 @@ starts_at: "2017-09-05T8:00Z"
 ends_at: "2017-09-05T17:00Z"
 location: "UW-Milwaukee Libraries"
 organization: "UW-Milwaukee Libraries, Wisconsin Historical Society"
-link: [Wisconsin Historical Society](https://www.wisconsinhistory.org/calendar/series/43/crossing-the-line)
 ---
 
 ## Crossing the Line: The Milwaukee Fair Housing Marches of 1967-1968 (Exhibit closing)
