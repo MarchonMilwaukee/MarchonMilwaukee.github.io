@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Crossing the Line (Racine)"
+title: "Crossing the Line at Racine Public Library"
 starts_at: "2017-09-06T9:00Z"
 ends_at: "2017-09-06T20:00Z"
 location: "Racine Public Library"
