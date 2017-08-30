@@ -3,7 +3,7 @@ layout: event
 sidebar: event
 title: "Crossing the Line at UW-Milwaukee"
 starts_at: "2017-09-05T8:00Z"
-ends_at: "TBD"
+ends_at: "2017-09-05 TBD"
 location: "UW-Milwaukee Libraries"
 ---
 
