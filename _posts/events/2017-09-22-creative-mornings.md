@@ -12,4 +12,4 @@ organization: "Creative Mornings"
 
 For this installment of our running series, we welcome Dr. Katherine Wilson from the [Ziedler Center for Public Discussion](https://www.zeidlercenter.org) as our speaker. She'll be speaking on our global theme of "Compassion."
 
-[Click here to view past CreativeMornings Milwaukee speakers.](https://creativemornings.com/cities/mke)
+[Click here] to view past CreativeMornings Milwaukee speakers.(https://creativemornings.com/cities/mke)
