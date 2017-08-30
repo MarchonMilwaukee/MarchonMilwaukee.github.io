@@ -6,6 +6,7 @@ starts_at: "2017-09-06T9:00Z"
 ends_at: "2017-09-06T20:00Z"
 location: "Racine Public Library (75 7th St, Racine, WI)"
 organization: "Racine Public Library, Wisconsin Historical Society"
+link: [Wisconsin Historical Society](https://www.wisconsinhistory.org/calendar/series/43/crossing-the-line)
 ---
 
 ## Crossing the Line: The Milwaukee Fair Housing Marches of 1967-1968 (Exhibit opening) 
