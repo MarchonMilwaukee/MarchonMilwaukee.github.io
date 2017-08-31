@@ -6,7 +6,7 @@ starts_at: "2017-09-23T10:00"
 ends_at: "2017-09-23T17:00"
 location: "Milwaukee City Hall (200 E Wells St)"
 organization: "Historic Milwaukee Inc., Wisconsin Historical Society"
-external_link: "doorsopenmilwaukee.org"
+external_link: "http://www.doorsopenmilwaukee.org"
 ---
 
 Doors Open is a city wide open house event that invites the public to tour over 150 building throughout Milwaukee. 
