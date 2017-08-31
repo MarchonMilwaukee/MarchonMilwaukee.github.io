@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Crossing the Line in Racine"
+title: "'Crossing the Line' in Racine"
 starts_at: "2017-09-06T9:00"
 ends_at: "2017-09-06T20:00"
 location: "Racine Public Library (75 7th St, Racine, WI)"
