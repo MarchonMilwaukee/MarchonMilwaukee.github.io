@@ -1,12 +1,12 @@
 ---
 layout: event
 sidebar: event
-title: “’Crossing the Line’ in Lake Mills“
+title: "’Crossing the Line’ in Lake Mills"
 starts_at: "2017-10-04T9:00"
 ends_at: "2017-10-04T21:00"
-location: "L. D. Fargo Public Library, Lake Mills (120 E Madison St, Lake Mills, WI)”
+location: "L. D. Fargo Public Library, Lake Mills (120 E Madison St, Lake Mills, WI)"
 external_link: "https://www.wisconsinhistory.org/calendar/series/43/crossing-the-line"
-organization: “Lake Mills Library, Wisconsin Historical Society"
+organization: "Lake Mills Library, Wisconsin Historical Society"
 ---
 
 ## Crossing the Line: The Milwaukee Fair Housing Marches of 1967-1968 (Exhibit opening) 
