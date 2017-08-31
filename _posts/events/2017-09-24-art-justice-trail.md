@@ -4,7 +4,7 @@ sidebar: event
 title: "Art & Justice Trail (Civil Rights Marches Tour)"
 starts_at: "2017-09-24T9:00Z"
 ends_at: "2017-09-24T12:00Z"
-location: "MacArthur Square"
+location: "Downtown & near South Side"
 organization: "ZIP MKE, The Generosity Project, and Doors Open Milwaukee"
 link: "http://www.doorsopenmilwaukee.org/tours-2017/"
 ---
