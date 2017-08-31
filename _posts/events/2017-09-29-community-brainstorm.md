@@ -2,16 +2,16 @@
 layout: event
 sidebar: event
 title: "March On Milwaukee 50th: August Community Brainstorm"
-starts_at: "2017-09-29T17:30"
-ends_at: "2017-09-29T19:00"
-location: "Walker's Point Center for the Arts"
+starts_at: "2017-08-29T17:30"
+ends_at: "2017-08-29T19:00"
+location: "Walker's Point Center for the Arts (839 S 5th St, Milwaukee)"
 external_link: "http://bit.ly/2xb0IPQ"
 organization: "March on Milwaukee 50th"
 ---
 
 If you plan on attending, please RSVP here: http://bit.ly/2xb0IPQ
 
-200 Nights of Freedom kicks off the night before this brainstorm, which makes now the perfect time to get involved. This workshop gives history of Milwaukee's Open Housing Marches, then community individuals/organizations/institutions through how they can contribute to 200 Nights of Freedom.
+[200 Nights of Freedom](https://www.facebook.com/marchonmilwaukee50/) kicks off the night before this brainstorm, which makes now the perfect time to get involved. This workshop gives history of Milwaukee's Open Housing Marches, then community individuals/organizations/institutions through how they can contribute to 200 Nights of Freedom.
 
 People from all backgrounds, skill sets and abilities are welcome.
 
