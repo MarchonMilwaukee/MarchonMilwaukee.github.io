@@ -4,9 +4,9 @@ sidebar: event
 title: "Black Women's March Planning Meeting"
 starts_at: "2017-09-01T18:00"
 ends_at: "2017-09-01T19:30"
-location: “Riverworks Lofts (3372 N. Holton Ave)“
+location: "Riverworks Lofts (3372 N. Holton Ave)"
 external_link: "https://www.facebook.com/events/330201717433887/"
-organization: “UBLAC Milwaukee”
+organization: "UBLAC Milwaukee"
 ---
 
 On September 30, 2017 a multi-community movement led by a coalition united by demands for racial justice will host a March for Racial Justice in Washington, DC. Within this march, [Black Women’s Blueprint](http://www.blackwomensblueprint.org) will host a March for Black Women also in Washington, DC. 

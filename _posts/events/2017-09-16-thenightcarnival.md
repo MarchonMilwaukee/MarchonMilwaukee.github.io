@@ -4,7 +4,7 @@ sidebar: event
 title: "The Night Carnival"
 starts_at: "2017-09-16T16:00"
 ends_at: "2017-09-16T23:00"
-location: “Garden next to Riverwest Public House (815 E. Locust St.)”
+location: "Garden next to Riverwest Public House (815 E. Locust St.)"
 organization: "Teatro di Affetto"
 external_link: "https://www.facebook.com/events/1659667787417358/"
 ---

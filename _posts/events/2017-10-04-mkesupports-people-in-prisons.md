@@ -2,10 +2,10 @@
 layout: event
 sidebar: event
 title: "Milwaukee Supports People in Prisons"
-starts_at: "2017–10-04T18:00”
-ends_at: "2017-10-04T19:30”
-location: “Center Street Library (2727 W. Fond Du Lac Ave.)”
-organization: “Black and Pink Milwaukee“
+starts_at: "2017–10-04T18:00"
+ends_at: "2017-10-04T19:30"
+location: "Center Street Library (2727 W. Fond Du Lac Ave.)"
+organization: "Black and Pink Milwaukee"
 external_link: "https://www.facebook.com/MKEBlackandPink/"
 ---
 
