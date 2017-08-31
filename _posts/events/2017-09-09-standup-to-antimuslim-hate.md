@@ -3,8 +3,8 @@ layout: event
 sidebar: event
 title: "Stand Up to Anti-Muslim Hate"
 starts_at: "2017-09-09T8:00"
-ends_at: "2017-09-09T10:00”
-location: “Milwaukee Federal Courthouse (315 E. Wisconsin Ave)“
+ends_at: "2017-09-09T10:00"
+location: "Milwaukee Federal Courthouse (315 E. Wisconsin Ave)"
 external_link: "https://www.facebook.com/events/1966493196908747/"
 organization: "General Defense Committee, Industrial Workers of the World"
 ---
