@@ -4,8 +4,8 @@ sidebar: event
 title: "Town Hall for Fair Election Maps"
 starts_at: "2017-09-12T18:00"
 ends_at: "2017-09-12T19:00"
-location: "Washington Park Library (2121 N. Sherman Blvd.)”
-organization: “Wisconsin Voices”
+location: "Washington Park Library (2121 N. Sherman Blvd.)"
+organization: "Wisconsin Voices"
 external_link: "https://www.facebook.com/events/1931890233690706/"
 ---
 
