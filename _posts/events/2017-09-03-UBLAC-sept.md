@@ -6,7 +6,6 @@ starts_at: "2017-09-03T14:00"
 ends_at: "2017-09-03T16:00”
 location: “Brown Deer United Methodist Church (5736 W. Brown Deer Rd)“
 external_link: "https://www.facebook.com/events/499649157050491/"
-organization: “UBLAC Milwaukee”
 ---
 
 [UBLAC](https://www.facebook.com/UBLACMKE/) welcome all, but especially Black youth, young and old to attend, invite, and support our next Mass Meeting. Let's build, engage, educate, and work together. 
