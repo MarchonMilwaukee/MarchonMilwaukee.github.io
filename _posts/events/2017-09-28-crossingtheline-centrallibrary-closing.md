@@ -4,7 +4,7 @@ sidebar: event
 title: "’Crossing the Line’ at Central Library"
 starts_at: "2017–09-28T9:00"
 ends_at: "2017-09-28T18:00"
-location: "Milwaukee Public Library Central Branch (814 W Wisconsin Ave)”
+location: "Milwaukee Public Library Central Branch (814 W Wisconsin Ave)"
 organization: "Milwaukee Public Library, Wisconsin Historical Society"
 external_link: "https://www.wisconsinhistory.org/calendar/series/43/crossing-the-line"
 ---
