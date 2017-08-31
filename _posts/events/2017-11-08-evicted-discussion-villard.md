@@ -10,4 +10,4 @@ organization: "Milwaukee Public Library"
 
 This book discussion will be convened to discuss current housing inequity issues through Matthew Desmond’s [Evicted: Profit and Poverty in the American City](http://www.evictedbook.com). Evicted won the 2017 Pulitzer Prize for General Nonfiction and features stories of tenants and landlords in the poorest areas of Milwaukee during 2008 and 2009.
 
-This event is organized by the [Milwaukee Public Library](https://www.mpl.org) and will be co-facilitated with community volunteers.
+This event is organized by [Milwaukee Public Library](https://www.mpl.org) and will be co-facilitated with community volunteers.
