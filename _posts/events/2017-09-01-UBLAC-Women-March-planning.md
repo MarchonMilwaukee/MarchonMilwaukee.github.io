@@ -4,7 +4,7 @@ sidebar: event
 title: "Black Women's March Planning Meeting"
 starts_at: "2017-09-01T18:00"
 ends_at: "2017-09-01T19:30"
-location: “Riverworks Lofts, (3372 N. Holton Ave)“
+location: “Riverworks Lofts (3372 N. Holton Ave)“
 external_link: "https://www.facebook.com/events/330201717433887/"
 organization: “UBLAC Milwaukee”
 ---
