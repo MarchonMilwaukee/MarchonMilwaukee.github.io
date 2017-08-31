@@ -14,4 +14,4 @@ The traveling display ["Crossing the Line: The Milwaukee Fair Housing Marches of
  
 The eight panels of "Crossing the Line" tell the story of Milwaukee's civil rights marches in simple language, with reproductions of 33 historic photographs and documents. The display was created by the [Wisconsin Historical Society](https://www.wisconsinhistory.org) and is most suitable for secondary schools and the general public.
  
- The exhibit is on display at the [Oak Creek Public Library](https://oakcreeklibrary.org) (8040 S 6th St, Oak Creek, WI) from 9/25/17 to 10/17/17.
+The exhibit is on display at the [Oak Creek Public Library](https://oakcreeklibrary.org) (8040 S 6th St, Oak Creek, WI) from 9/25/17 to 10/17/17.
