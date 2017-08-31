@@ -3,7 +3,7 @@ layout: event
 sidebar: event
 title: "Silver City International Festival"
 starts_at: "2017-09-09T12:00"
-ends_at: "2017-09-09T17:00”
+ends_at: "2017-09-09T17:00"
 location: "W National Ave between 33rd & 35th St"
 external_link: "https://www.facebook.com/events/1844535895859964/"
 organization: "Layton Boulevard West Neighbors"
