@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "Doors Open Milwaukee & Crossing the Line"
-starts_at: "2017-09-23T10:00"
-ends_at: "2017-09-23T17:00"
+starts_at: "2017-09-24T10:00"
+ends_at: "2017-09-24T17:00"
 location: "Milwaukee City Hall (200 E Wells St)"
 organization: "Historic Milwaukee Inc., Wisconsin Historical Society"
 external_link: "http://www.doorsopenmilwaukee.org"
