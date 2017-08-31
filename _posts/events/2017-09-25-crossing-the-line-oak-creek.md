@@ -8,8 +8,6 @@ location: "Oak Creek Public Library (8040 S 6th St, Oak Creek, WI)"
 organization: "Oak Creek Public Library, Wisconsin Historical Society"
 ---
 
-## The Milwaukee Fair Housing Marches of 1967-1968 (Exhibit opening) 
-
 ## Crossing the Line: The Milwaukee Fair Housing Marches of 1967-1968 (Exhibit opening) 
 
 The traveling display ["Crossing the Line: The Milwaukee Fair Housing Marches of 1967-1968"](https://www.wisconsinhistory.org/calendar/series/43/crossing-the-line) commemorates the 50th anniversary of Milwaukee's civil rights marches by examining the practices and prejudices that led to segregation in Milwaukee and chronicling the school desegregation and fair housing movements of the 1960s. It also asks the question, "What can you do to end segregation today?"
