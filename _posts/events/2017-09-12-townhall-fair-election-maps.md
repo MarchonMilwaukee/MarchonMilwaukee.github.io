@@ -14,8 +14,11 @@ Wisconsin’s voting maps are unfair. We need to work together to change this!
 Unfair voting maps affect these neighborhood issues and more:
 
 • Not enough good jobs
+
 • Unsafe streets 
+
 • Lead in the drinking water
+
 • Our kids’ public schools get less funding than other neighborhoods
 
 Come learn from community leaders!
