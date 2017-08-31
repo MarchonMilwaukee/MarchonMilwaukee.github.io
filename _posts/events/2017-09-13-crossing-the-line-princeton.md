@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: ""Crossing the Line" in Princeton"
+title: "Crossing the Line in Princeton"
 starts_at: "2017-09-13T10:00Z"
 ends_at: "2017-09-13T20:00Z"
 location: "Princeton Public Library (424 W Water St)"
