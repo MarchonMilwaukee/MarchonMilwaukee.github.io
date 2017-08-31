@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "Public Art Walk on the Hank Aaron State Trail"
-starts_at: "2017–09-28T17:15”
+starts_at: "2017–09-28T17:15"
 ends_at: "2017-09-28T19:00"
 location: "Begins at the Sigma Group (1300 W. Canal St.)"
 organization: "Menomonee Valley Partners"
