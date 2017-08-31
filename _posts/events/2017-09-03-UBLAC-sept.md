@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "UBLAC Mass Meeting: September"
+title: "UBLAC Mass Meeting"
 starts_at: "2017-09-03T14:00"
 ends_at: "2017-09-03T16:00”
 location: “Brown Deer United Methodist Church (5736 W. Brown Deer Rd)“
