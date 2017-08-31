@@ -26,7 +26,9 @@ Come learn from community leaders!
 Shauntay Nelson of Wisconsin Voices and former State Legislators Dale Schultz (R) and Tim Cullen (D)
 
 • What you need to know about unfair voting maps.
+
 • Why the U.S. Supreme Court will hear the most important case of the decade against Wisconsin’s unfair voting maps.
+
 • What we can do to get fair voting maps!
 
 Sponsored by [Citizen Action of Wisconsin](http://www.citizenactionwi.org), [Fair Elections Project](https://www.fairelectionsproject.org), [Wisconsin Voices](wisconsin faith voices for justice), OFA, OCA, AFNHP, Riverwest Votes, WEAC Region 7, ACLU
