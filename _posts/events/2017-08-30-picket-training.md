@@ -4,7 +4,7 @@ sidebar: event
 title: "Picket Training"
 starts_at: "2017-08-30T17:30"
 ends_at: "2017-08-30T19:30"
-location: “Zablocki Library (3501 W. Oklahoma Ave)“
+location: "Zablocki Library (3501 W. Oklahoma Ave)"
 external_link: "https://www.facebook.com/events/860955420718089/"
 organization: "General Defense Committee, Industrial Workers of the World"
 ---
