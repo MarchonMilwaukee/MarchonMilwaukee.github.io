@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Evicted Book Discussion"
+title: "'Evicted Book' Discussion"
 starts_at: "2017-11-08T18:30"
 ends_at: "2017-11-08T19:30"
 location: "Villard Square Branch Library (5190 N 35th St)"
