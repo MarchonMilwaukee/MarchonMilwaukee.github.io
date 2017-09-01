@@ -36,7 +36,7 @@ new Vue({
     today: new Date(),
     currentMonth: new Date().getMonth(),
     currentYear: new Date().getFullYear(),
-    display: "week",
+    display: "month",
     currentWeek: parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1
   },
   created: function() {
