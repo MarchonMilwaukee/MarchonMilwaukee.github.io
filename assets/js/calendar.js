@@ -37,7 +37,7 @@ new Vue({
     currentMonth: new Date().getMonth(),
     currentYear: new Date().getFullYear(),
     display: "month",
-    currentWeek: parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1
+    currentWeek: Math.ceil(new Date().getDate() / 7)
   },
   created: function() {
     document.addEventListener("keydown", function(e) {
@@ -146,7 +146,7 @@ new Vue({
     },
     goToToday: function() {
       this.goToMonth(this.today.getMonth(), this.today.getFullYear())
-      this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7) + 1;
+      this.currentWeek = Math.ceil(this.today.getDate() / 7);
     },
     eventsOnDay: function(date) {
       var today = new Date(this.currentYear, this.currentMonth, date);
@@ -203,7 +203,7 @@ new Vue({
     displayWeek: function() {
       this.display = "week";
       if(this.today.getMonth() == this.currentMonth) {
-        this.currentWeek = parseInt((new Date().getDate() + (new Date(new Date().getFullYear(), new Date().getMonth(), 1).getDay())) / 7);
+        this.currentWeek = Math.ceil(this.today.getDate() / 7);
       } else {
         this.currentWeek = 1;
       }
@@ -224,14 +224,18 @@ new Vue({
     },
     nextWeek: function() {
       this.currentWeek++;
-      if(this.currentWeek > (this.weeks - 1)) {
-        this.currentWeek = 1;
+      if(this.currentWeek > this.weeks) {
+        if(this.dateO(this.currentMonth, this.currentWeek - 1, 6).getMonth() > this.currentMonth ) {
+          this.currentWeek = 2;
+        } else {
+          this.currentWeek = 1;
+        }
         this.nextMonth();
       }
     },
     previousWeek: function() {
       this.currentWeek--;
-      if(this.currentWeek <= 0) {
+      if(this.currentWeek < 0) {
         this.previousMonth();
         this.currentWeek = this.weeks - 1;
       }
