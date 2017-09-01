@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "'Crossing the Line' in Oak Creek"
-starts_at: "2017-09-25T9:00Z"
-ends_at: "2017-09-25T20:00Z"
+starts_at: "2017-09-25T09:00"
+ends_at: "2017-09-25T20:00"
 location: "Oak Creek Public Library (8040 S 6th St, Oak Creek, WI)"
 organization: "Oak Creek Public Library, Wisconsin Historical Society"
 ---

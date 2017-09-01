@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "'Crossing the Line' in Waukesha"
-starts_at: "2017-10-25T9:00Z"
-ends_at: "2017-10-25T17:00Z"
+starts_at: "2017-10-25T09:00"
+ends_at: "2017-10-25T17:00"
 location: "UW-Waukesha (1500 N University Dr)"
 organization: "UW-Waukesha, Wisconsin Historical Society"
 ---
