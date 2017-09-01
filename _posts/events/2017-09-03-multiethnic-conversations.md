@@ -8,7 +8,7 @@ location: "AMC Theater - Mayfair Mall (2500 N Mayfair Rd M186, Wauwatosa, WI )"
 organization: "My City of Light"
 ---
 
-Each Sunday at 10:30am, these conversations focus on American and local history of racism, prejudice and segregation.  We then invite local guests to discuss ways people of different background can engage in meaningful events to make our city better.
+Each Sunday in September at 10:30am, these conversations focus on American and local history of racism, prejudice and segregation. We then invite local guests to discuss ways people of different background can engage in meaningful events to make our city better.
 
 These events focus on creating a better Milwaukee for minorities and all ethnic groups. These events promote healthy conversation and action around causes that align with the 200 Nights of Freedom mission.
 
