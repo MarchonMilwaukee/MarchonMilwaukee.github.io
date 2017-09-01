@@ -6,7 +6,6 @@ starts_at: "2017-09-19T18:00"
 ends_at: "2017-09-19T20:00"
 location: "Ex Prisoners Organizing office (2821 N. 4th St.)"
 organization: "Ex Prisoners Organizing (EXPO)"
-external_link: "https://www.facebook.com/events/1659667787417358/"
 ---
 
 This is a monthly coalition meeting about closing M.S.D.F. that is open to the public. Conditions at Milwaukee Secure Detention Facility (MSDF) are out of step with Wisconsin values. 
