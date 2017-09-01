@@ -13,4 +13,4 @@ The Menomonee Valley was the physical barrier that marked the divide between Mil
 
 Melissa Cook, [Hank Aaron State Trail Manager](http://www.hankaaronstatetrail.org), will provide a free walking tour to share the important history of Milwaukee’s civil rights marches and the murals that honor marchers along the Hank Aaron State Trail Menomonee River Loop. 
 
-This tour will take place during the [Menomonee Valley Parters](http://www.renewthevalley.org) inaugural [Menomonee Valley Week](http://www.renewthevalley.org/documents/225-first-every-valley-week-from-sep-23-30).
+This tour will take place starting at 5:15pm on 9/28 during the [Menomonee Valley Parters](http://www.renewthevalley.org) inaugural [Menomonee Valley Week](http://www.renewthevalley.org/documents/225-first-every-valley-week-from-sep-23-30).
