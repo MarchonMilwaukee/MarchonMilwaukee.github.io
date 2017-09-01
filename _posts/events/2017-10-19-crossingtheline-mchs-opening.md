@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "'Crossing the Line' at Milwaukee County Historical Society"
-starts_at: "2017-10-19T09:30"
-ends_at: "2017-10-19T17:00"
+starts_at: "2017-10-18T09:30"
+ends_at: "2017-10-18T17:00"
 location: "Milwaukee County Historical Society (910 N Old World Third St)"
 organization: "Milwaukee County Historical Society, Wisconsin Historical Society"
 ---
@@ -14,4 +14,4 @@ The traveling display ["Crossing the Line: The Milwaukee Fair Housing Marches of
  
 The eight panels of "Crossing the Line" tell the story of Milwaukee's civil rights marches in simple language, with reproductions of 33 historic photographs and documents. The display was created by the [Wisconsin Historical Society](https://www.wisconsinhistory.org) and is most suitable for secondary schools and the general public.
  
-The exhibit is on display at the [Milwaukee County Historical Society](https://milwaukeehistory.net) (910 N Old World Third St) from 10/19/17 to 11/7/17.
+The exhibit is on display at the [Milwaukee County Historical Society](https://milwaukeehistory.net) (910 N Old World Third St) from 10/18/17 to 11/7/17.
