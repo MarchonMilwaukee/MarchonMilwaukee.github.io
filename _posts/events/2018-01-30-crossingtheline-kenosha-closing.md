@@ -14,4 +14,4 @@ The traveling display ["Crossing the Line: The Milwaukee Fair Housing Marches of
  
 The eight panels of "Crossing the Line" tell the story of Milwaukee's civil rights marches in simple language, with reproductions of 33 historic photographs and documents. The display was created by the [Wisconsin Historical Society](https://www.wisconsinhistory.org) and is most suitable for secondary schools and the general public.
 
-The exhibit will be on display at the [Kenosha History Center](http://www.kenoshahistorycenter.org) (220 51st Pl, Kenosha, WI) from 1/10/18 to 1/30/17.
+The exhibit will be on display at the [Kenosha History Center](http://www.kenoshahistorycenter.org) (220 51st Pl, Kenosha, WI) from 1/10/18 to 1/30/18.
