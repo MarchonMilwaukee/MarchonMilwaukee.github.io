@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "'Crossing the Line' in Sheboygan"
-starts_at: "2018-05-01dT09:00"
+starts_at: "2018-05-01T09:00"
 ends_at: "2018-05-01T20:00"
 location: "Mead Public Library, Sheboygan (710 N 8th St, Sheboygan, WI)"
 organization: "Mead Public Library, Wisconsin Historical Society"
