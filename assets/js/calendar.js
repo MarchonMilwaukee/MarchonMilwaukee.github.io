@@ -83,7 +83,7 @@ new Vue({
       var daysInMonth = endOfMonth.getDate();
       var offset = beginningOfMonth.getDay();
       var date = ((week * 7) + day - offset + 1);
-      if((week === 0 && day < offset) || (day + (week * 7) > (daysInMonth + offset - 1))) {
+      if((week === 0 && day < offset) || (day + (week * 7) > (daysInMonth + offset))) {
         if(this.display == "month") {
           return "";
         } else {
