@@ -7,12 +7,20 @@
   <div class="start">
     Starts: 
     <br />
-    {{ page.starts_at | date:"%b %-d, %Y at %I:%M%P" }}
+    {% if page.starts_at | date:"%H" == "0" %}
+    {{ page.starts_at | date:"%b %-d, %Y at TBD" }}
+    {% else %}
+      {{ page.starts_at | date:"%b %-d, %Y at %I:%M%P" }}
+    {% endif %}
   </div>
   <div class="end" style="margin-top: 15px;">
     Ends: 
     <br />
-    {{ page.ends_at | date:"%b %-d, %y at %I:%M%P" }}
+    {% if page.ends_at | date:"%H" == "0" %}
+    {{ page.ends_at | date:"%b %-d, %Y at TBD" }}
+    {% else %}
+      {{ page.ends_at | date:"%b %-d, %Y at %I:%M%P" }}
+    {% endif %}
     <br />
   </div>
   {% if page.external_link %}

@@ -3,7 +3,11 @@ Vue.component('weekday', {
   props: ['date', 'events'],
   methods: {
     starting: function(event) {
-      return this.formatDate(event.starts_at, "h:mm a");
+      if(event.starts_at.hour() == 0) {
+        return "TBD";
+      } else {
+        return this.formatDate(event.starts_at, "h:mm a");
+      }
     },
     formatDate: function(date, format) {
       var rawDate = new Date(date);
