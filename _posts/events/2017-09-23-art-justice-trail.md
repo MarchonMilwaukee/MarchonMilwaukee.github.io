@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "Art & Justice Trail (Bronzeville Loop)"
-starts_at: "2017-09-23T9:00Z"
-ends_at: "2017-09-23T12:00Z"
+starts_at: "2017-09-23T09:00"
+ends_at: "2017-09-23T12:00"
 location: "Bronzeville"
 organization: "ZIP MKE, The Generosity Project, and Doors Open Milwaukee"
 link: "http://www.doorsopenmilwaukee.org/tours-2017/"

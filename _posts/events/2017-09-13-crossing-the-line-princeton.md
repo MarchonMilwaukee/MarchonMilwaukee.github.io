@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "'Crossing the Line' in Princeton"
-starts_at: "2017-09-13T10:00Z"
-ends_at: "2017-09-13T20:00Z"
+starts_at: "2017-09-13T10:00"
+ends_at: "2017-09-13T20:00"
 location: "Princeton Public Library (424 W Water St)"
 organization: "Princeton Public Library, Wisconsin Historical Society"
 ---

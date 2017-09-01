@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "Housing in MKE: Evictions, Race Relations and Policy"
-starts_at: "2017–10-04T17:30"
+starts_at: "2017-10-04T17:30"
 ends_at: "2017-10-04T20:00"
 location: "TBA"
 organization: "League of Women Voters Milwaukee County"

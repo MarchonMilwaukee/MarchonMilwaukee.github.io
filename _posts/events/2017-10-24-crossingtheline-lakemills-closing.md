@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "’Crossing the Line’ in Lake Mills"
-starts_at: "2017-10-24T9:00"
+starts_at: "2017-10-24T09:00"
 ends_at: "2017-10-24T21:00"
 location: "L. D. Fargo Public Library, Lake Mills (120 E Madison St, Lake Mills, WI)"
 external_link: "https://www.wisconsinhistory.org/calendar/series/43/crossing-the-line"

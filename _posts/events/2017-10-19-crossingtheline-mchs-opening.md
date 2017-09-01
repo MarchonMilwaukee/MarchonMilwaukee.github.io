@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "'Crossing the Line' at Milwaukee County Historical Society"
-starts_at: "2017-10-19T9:30Z"
-ends_at: "2017-10-19T17:00Z"
+starts_at: "2017-10-19T09:30"
+ends_at: "2017-10-19T17:00"
 location: "Milwaukee County Historical Society (910 N Old World Third St)"
 organization: "Milwaukee County Historical Society, Wisconsin Historical Society"
 ---

@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "CreativeMornings Milwaukee presents: Compassion"
-starts_at: "2017-09-22T08:30Z"
-ends_at: "2017-09-22T10:00Z"
+starts_at: "2017-09-22T08:30"
+ends_at: "2017-09-22T10:00"
 location: "TBD"
 organization: "Creative Mornings"
 ---
