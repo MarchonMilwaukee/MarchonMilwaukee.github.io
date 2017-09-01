@@ -229,6 +229,7 @@ new Vue({
     nextWeek: function() {
       this.currentWeek++;
       if(this.currentWeek > this.weeks) {
+        // if the end of this week is already the next month, start on the second week of the next month
         if(this.dateO(this.currentMonth, this.currentWeek - 1, 6).getMonth() > this.currentMonth ) {
           this.currentWeek = 2;
         } else {
