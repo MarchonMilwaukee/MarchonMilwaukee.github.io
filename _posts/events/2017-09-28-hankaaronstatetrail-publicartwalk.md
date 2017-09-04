@@ -6,7 +6,7 @@ starts_at: "2017-09-28T17:15"
 ends_at: "2017-09-28T19:00"
 location: "Begins at the Sigma Group (1300 W. Canal St.)"
 organization: "Menomonee Valley Partners"
-external_link: "https://www.facebook.com/events/1916530092004878/
+external_link: "https://www.facebook.com/events/1916530092004878/"
 ---
 
 The Menomonee Valley was the physical barrier that marked the divide between Milwaukee’s black and white communities. In 1967, the first of the civil rights marches crossed the Menomonee Valley’s 16th Street Viaduct in protest of racial discrimination and housing segregation. 
