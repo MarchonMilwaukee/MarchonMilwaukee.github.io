@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "UBLAC Mass Potluck Meeting: February"
-starts_at: "2018-02-18T019:00"
+starts_at: "2018-02-18T19:00"
 ends_at: "2018-02-18T21:00"
 location: "TBA"
 organization: "UBLAC (Uplifting Black Liberation and Black Community)"
