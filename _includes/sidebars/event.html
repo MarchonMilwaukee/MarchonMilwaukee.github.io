@@ -7,14 +7,22 @@
   <div class="start">
     Starts: 
     <br />
-    
+    {% assign start_hour = page.starts_at | date: "%H" %}
+    {% if start_hour == "00" %}
+      {{ page.starts_at | date:"%b %-d, %Y at TBD" }}
+    {% else %}
       {{ page.starts_at | date:"%b %-d, %Y at %I:%M%P" }}
-    
+    {% endif %}
   </div>
   <div class="end" style="margin-top: 15px;">
     Ends: 
     <br />
+    {% assign end_hour = page.ends_at | date: "%H" %}
+    {% if end_hour == "00" %}
+      {{ page.ends_at | date:"%b %-d, %Y at TBD" }}
+    {% else %}
       {{ page.ends_at | date:"%b %-d, %Y at %I:%M%P" }}
+    {% endif %}
     <br />
   </div>
   {% if page.external_link %}
