@@ -6,6 +6,7 @@ starts_at: "2017-11-04T10:30"
 ends_at: "2017-11-04T11:30"
 location: "University of Wisconsin Waukesha (1500 N University Dr, Waukesha, WI)"
 organization: "Southeast Wisconsin Festival of Books, University of Wisconsin Waukesha"
+external_link: "http://www.sewibookfest.com/"
 ---
 
 The [University of Wisconsin-Waukesha](http://waukesha.uwc.edu) and the [Southeast Wisconsin Festival of Books](http://www.sewibookfest.com) are pleased to host [Crossing the Line](https://www.wisconsinhistory.org//Records/Article/CS15090), the Wisconsin Historical Society’s exhibit about Milwaukee’s Open Housing Marches. 
