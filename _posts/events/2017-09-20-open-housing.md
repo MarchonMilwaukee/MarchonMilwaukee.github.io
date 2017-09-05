@@ -9,6 +9,8 @@ organization: "Unitarian Universalist Church"
 link: "https://www.facebook.com/events/451151895257039/"
 ---
 
+[More information on this event here.](https://www.facebook.com/events/451151895257039/)
+
 On September 20, 1967, [Unitarian Church West](http://www.uucw.org) became the one suburban congregation to open its doors for the NAACP Youth Commandos and Father Groppi during Milwaukee’s Open Housing Marches. Hundreds of people packed the building to listen and learn. Today, as we own this history of racism and response, we learn about today’s needs, offer support to young black leaders, and rededicate ourselves to the racial justice challenges of our time. 
 
 The program will be preceded by a Public Witness for racial justice and open housing along North Ave in front of the church beginning at 6:30 pm.
