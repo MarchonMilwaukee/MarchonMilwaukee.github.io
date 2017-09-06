@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "MMFHC 40th Anniversary Celebration"
-starts_at: "2017-11-16T017:00"
+starts_at: "2017-11-16T17:00"
 ends_at: "2017-11-16T21:00"
 location: "The Kimpton Journeyman Hotel (310 E Chicago St)"
 organization: "Metropolitan Milwaukee Fair Housing Council"
