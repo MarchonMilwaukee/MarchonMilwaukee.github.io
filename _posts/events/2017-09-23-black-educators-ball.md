@@ -9,7 +9,9 @@ external_link: "https://www.mkebeb.com"
 organization: "African American Ladies Empowered to Grow Opportunities"
 ---
 
-African American Ladies Empowered to Grow Opportunities, A-LEGO, is a social action, nonprofit organization that is comprised of various committees. On Saturday, September 23, 2017 the Education Committee will be hosting the BLACK EDUCATORS' BALL at the Zoofari Conference Center. The purpose of the B.E. Ball is to celebrate exceptional educators in our community and raise funds to provide scholarships for deserving students. We believe that it is important to recognize educators for their commitment and compassion to educating and empowering our children. This exciting fundraising event offers an opportunity for educators to network, socialize and re-energize themselves in order to promote excellence in education and our community as a whole. Bring your dancing shoes because the entertainment is sure to get you on your feet!
+African American Ladies Empowered to Grow Opportunities, A-LEGO, is a social action, nonprofit organization that is comprised of various committees. On Saturday, September 23, 2017 the Education Committee will be hosting the BLACK EDUCATORS' BALL at the Zoofari Conference Center. 
+
+The purpose of the B.E. Ball is to celebrate exceptional educators in our community and raise funds to provide scholarships for deserving students. We believe that it is important to recognize educators for their commitment and compassion to educating and empowering our children. This exciting fundraising event offers an opportunity for educators to network, socialize and re-energize themselves in order to promote excellence in education and our community as a whole. Bring your dancing shoes because the entertainment is sure to get you on your feet!
 
 [Tickets can be purchased on Eventbrite.](https://www.eventbrite.com/e/black-educators-ball-tickets-34960766594)
 
