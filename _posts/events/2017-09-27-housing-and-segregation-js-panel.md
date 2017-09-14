@@ -3,7 +3,7 @@ layout: event
 sidebar: event
 title: "Housing and segregation in Milwaukee, then and now"
 starts_at: "2017-09-27T18:00"
-ends_at: "2017-09-28T20:00"
+ends_at: "2017-09-27T20:00"
 location: "Wisconsin Black Historical Society (2620 W. Center St.)"
 organization: "Milwaukee Journal Sentinel, March On Milwaukee 50th"
 external_link: "https://www.eventbrite.com/e/housing-and-segregation-in-milwaukee-then-and-now-tickets-37757482647"
