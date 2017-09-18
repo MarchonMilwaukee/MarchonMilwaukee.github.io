@@ -21,7 +21,7 @@ Mass Story Lab is a participatory storytelling project that amplifies the voices
 
 [Please RSVP here.](https://www.eventbrite.com/e/mass-story-lab-milwaukee-tickets-37552099340)
 
-[To learn more abotu Mass Story Lab.](www.MassStoryLab.com)
+[To learn more abotu Mass Story Lab.](http://www.MassStoryLab.com)
 
 [EXPO](https://www.facebook.com/expowisconsin/) works to end mass incarceration, eliminate all forms of structural discrimination against formerly incarcerated people, and restore formerly incarcerated people to full participation in the life of communities.
 

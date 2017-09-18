@@ -18,4 +18,4 @@ Visit these works of art, learn more about each figure (the stuff they don’t t
 Meeting place: Corner of N. 9th St. and W. Vliet St.
 [Ticket required ($10).](http://www.doorsopenmilwaukee.org/tours-2017/) Duration: 3 miles / 2.5-3 hrs. Capacity: 25 per tour. 
 
-Hosted by [ZIP MKE](www.zipmke.com) and The Generosity Project during [Doors Open MKE](http://www.doorsopenmilwaukee.org) in conjunction with 200 Nights of Freedom.
+Hosted by [ZIP MKE](http://www.zipmke.com) and The Generosity Project during [Doors Open MKE](http://www.doorsopenmilwaukee.org) in conjunction with 200 Nights of Freedom.

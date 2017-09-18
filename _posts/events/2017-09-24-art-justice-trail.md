@@ -18,4 +18,4 @@ The tour will begin by visiting MacArthur Square just east of the Milwaukee Coun
 Meeting place: 800 W. Wells St. (in front of Milwaukee Public Museum)
 [Ticket required ($10).](http://www.doorsopenmilwaukee.org/tours-2017/) Duration: 2 miles / 2-2.5 hrs. Capacity: 25. 
 
-Hosted by [ZIP MKE](www.zipmke.com) and The Generosity Project during [Doors Open MKE](http://www.doorsopenmilwaukee.org) in conjunction with 200 Nights of Freedom.
+Hosted by [ZIP MKE](http://www.zipmke.com) and The Generosity Project during [Doors Open MKE](http://www.doorsopenmilwaukee.org) in conjunction with 200 Nights of Freedom.

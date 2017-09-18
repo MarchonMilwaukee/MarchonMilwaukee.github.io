@@ -12,4 +12,4 @@ Each Sunday in September at 10:30am, these conversations focus on American and l
 
 These events focus on creating a better Milwaukee for minorities and all ethnic groups. These events promote healthy conversation and action around causes that align with the 200 Nights of Freedom mission.
 
-[My City of Light](www.mycityoflight.com) is a multiethnic organization whose mission is to help all people reach their God-given potential. In addition to being a church, we actively engage in community projects that promote unity and racial reconciliation.
+[My City of Light](http://www.mycityoflight.com) is a multiethnic organization whose mission is to help all people reach their God-given potential. In addition to being a church, we actively engage in community projects that promote unity and racial reconciliation.

@@ -9,11 +9,11 @@ external_link: "https://www.facebook.com/events/1200453886725301/"
 organization: "It's My Bagina"
 ---
 
-[It’s My Bagina](www.itsmybagina.com) is celebrating the 80th anniversary of the novel 'Their Eyes Were Watching God.' Journalists, psychologists and poets are joining in a panel discussion to celebrate the themes around Hurston's most popular piece. 
+[It’s My Bagina](http://www.itsmybagina.com) is celebrating the 80th anniversary of the novel 'Their Eyes Were Watching God.' Journalists, psychologists and poets are joining in a panel discussion to celebrate the themes around Hurston's most popular piece. 
 
 We are exploring the themes as they relate to society in general and more specifically as they relate to the role of the black female in said society. Performance by the enticing Marielle Allschwang. Duh there will be spirits. Come out! All age book lovers welcome. 
 
-Started in 2017, [It’s My Bagina](www.itsmybagina.com) is a place to celebrate, learn, and share pieces of expression and protests from women of color.  Frustrated by the lack of representation given to her throughout her academic years founder Cree Myles is working to make a space where you can find the artist, writer, and activist you never knew existed while also experiencing a narrative about the world around you from a black feminist lens. If you are a woman of color and interested in submitting your own piece or, if you would like to see something you do not see on the blog please reach out to us at [baginababy@gmail.com](baginababy@gmail.com).  We look forward to connecting!
+Started in 2017, [It’s My Bagina](http://www.itsmybagina.com) is a place to celebrate, learn, and share pieces of expression and protests from women of color.  Frustrated by the lack of representation given to her throughout her academic years founder Cree Myles is working to make a space where you can find the artist, writer, and activist you never knew existed while also experiencing a narrative about the world around you from a black feminist lens. If you are a woman of color and interested in submitting your own piece or, if you would like to see something you do not see on the blog please reach out to us at [baginababy@gmail.com](baginababy@gmail.com).  We look forward to connecting!
 
 A bit more about our panelists:
 
