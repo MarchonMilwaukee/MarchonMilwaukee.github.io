@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "Crossing the Line at UW-Milwaukee"
-starts_at: "2017-09-05T8:00"
+starts_at: "2017-09-05T08:00"
 ends_at: "2017-09-05T17:00"
 location: "UW-Milwaukee Libraries"
 organization: "UW-Milwaukee Libraries, Wisconsin Historical Society"
