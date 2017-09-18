@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "Storytelling Workshop at Alverno"
-starts_at: "2017-10-21T9:00"
+starts_at: "2017-10-21T09:00"
 ends_at: "2017-10-21T11:30"
 location: "Alverno College,  Christopher Hall 215"
 external_link: "https://www.facebook.com/events/161354901083625/"
