@@ -2,7 +2,7 @@
 layout: event
 sidebar: event
 title: "Black Women's Empowerment March"
-starts_at: "2017-09-30T9:30"
+starts_at: "2017-09-30T09:30"
 ends_at: "2017-09-30T14:00"
 location: "Victory Over Violence Park (2615 N. Martin Luther King Drive) to Crossing Jordan Ministries (606 W. Concordia)"
 external_link: "https://www.facebook.com/events/134676427151552/"
