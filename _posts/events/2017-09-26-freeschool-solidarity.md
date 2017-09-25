@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Free School: March On Milwaukee 50th Solidarity Book Club"
+title: "Hawaii J20 Free School"
 starts_at: "2017-09-26T18:30"
 ends_at: "2017-09-26T20:00"
 location: "Chiko's Tavern (930 McCully Street), Honolulu, Hawai'i"
