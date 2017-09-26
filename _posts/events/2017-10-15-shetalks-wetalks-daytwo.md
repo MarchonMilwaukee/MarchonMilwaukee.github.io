@@ -2,8 +2,8 @@
 layout: event
 sidebar: event
 title: "SHEtalks WEtalk: 2017 RaceTalks for Women (Day Two)"
-starts_at: "2017-10-14T10:00"
-ends_at: "2017-10-14T16:00"
+starts_at: "2017-10-15T10:00"
+ends_at: "2017-10-15T16:00"
 location: "Diverse & Resilient (2439 N Holton St)"
 external_link: "https://www.facebook.com/events/1906079622751509/"
 organization: "[Catrice M. Jackson](http://www.shetalkswetalk.com/), SHEtalks WEtalk"
