@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: ""Justice for All:" A Book Event with Daphne Barbee-Wooten"
+title: "'Justice for All:' A Book Event with Daphne Barbee-Wooten"
 starts_at: "2017-10-16T18:00"
 ends_at: "2017-10-16T20:00"
 location: "Wisconsin Black Historical Society (2620 W Center St)"
