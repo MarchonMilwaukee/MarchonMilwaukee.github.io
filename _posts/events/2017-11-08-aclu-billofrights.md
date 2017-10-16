@@ -9,7 +9,7 @@ organization: "ACLU of Wisconsin"
 link: "https://action.aclu.org/secure/purchase-tickets-2017-bill-rights-celebration"
 ---
 
-Join us for the ACLU of Wisconsin Foundation's 2017 Bill of Rights Celebration on November 8!
+[Join us for the ACLU of Wisconsin Foundation's 2017 Bill of Rights Celebration on November 8!](http://200nightsoffreedom.org/2017/11/08/aclu-billofrights)
 
 We will be honoring the following groups and individuals who've made a difference in defending civil liberties and civil rights for Wisconsinites:
 
