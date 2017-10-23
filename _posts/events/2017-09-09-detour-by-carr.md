@@ -1,9 +1,9 @@
 ---
 layout: event
 sidebar: event
-title: "MKE Tours (for Milwaukeeans): March On Milwaukee 50th II"
-starts_at: "2017-11-04T10:00"
-ends_at: "2017-11-04T13:00"
+title: "MKE Tours (for Milwaukeeans): March On Milwaukee 50th"
+starts_at: "2017-09-09T10:00"
+ends_at: "2017-09-09T13:00"
 location: "Beginning at Haymarket Associated Bank (1301 N Doctor M.L.K. Dr, Milwaukee, WI)"
 organization: "Newaukee"
 external_link: "https://www.eventbrite.com/e/milwaukee-tour-for-milwaukeeans-march-on-milwaukee-50th-anniversary-pt-1-tickets-36161905232"
