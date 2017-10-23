@@ -1,25 +1,21 @@
 ---
 layout: event
 sidebar: event
-title: "MKE Tours (for Milwaukeeans): March On Milwaukee 50th"
-starts_at: "2017-09-09T10:00"
-ends_at: "2017-09-09T13:00"
+title: "MKE Tours (for Milwaukeeans): March On Milwaukee 50th II"
+starts_at: "2017-11-04T10:00"
+ends_at: "2017-11-04T13:00"
 location: "Beginning at Haymarket Associated Bank (1301 N Doctor M.L.K. Dr, Milwaukee, WI)"
 organization: "Newaukee"
-external_link: "https://www.eventbrite.com/e/milwaukee-tour-for-milwaukeeans-march-on-milwaukee-50th-anniversary-pt-2-tickets-37390000498?aff=erelexpmlt"
+external_link: "https://www.eventbrite.com/e/milwaukee-tour-for-milwaukeeans-march-on-milwaukee-50th-anniversary-pt-1-tickets-36161905232"
 ---
 
-March On Milwaukee 50th anniversary, Pt. 2
-This is the second of  two March On Milwaukee 50th tours, whose route and itinerary are inspired by Milwaukee’s Open Housing Marches in 1967/68. This will include historic locations and insight from elders who participated in the marches in the NAACP Youth Council and Commandos. Additionally, we will learn about organizing and activism taking place in Milwaukee today.
+While Milwaukee is often called a “City of Neighborhoods,” learning about communities outside of your own can be a challenge — it’s not always obvious where to start. Join Milwaukee enthusiast Adam Carr for an in-depth bus tour and exploration of culture/history/depth/texture in Milwaukee neighborhoods.
 
-The tour will include several stops, as well as food/snacks along the route. Be prepared to get off the bus and explore. The group will meet at Haymarket Square Park on the corner of McKinley and Old World Third, we will leave right at 10am so please arrive a little early to register - free street parking is available in the area.
+This is one of two March On Milwaukee 50th tours, whose route and itinerary are inspired by Milwaukee’s Open Housing Marches in 1967/68. Taking cues from 200 Nights of Freedom, the tour will focus on the themes “Recognition & Re-ignition.” This will include historic locations and insight from marchers who participated in the marches. Additionally, we will learn about organizing and activism taking place in Milwaukee today.
 
-Featured destinations include:
--MLK Drive & North Avenue
--Former site of Freedom House II
--Wisconsin Avenue & 16th Street
--National Avenue & 16th Street
--Koscuiszko Park (2201 S 7th St)
--UMOS mural on 1st and Mitchell Street
+The tour will include a 6 stops, as well as food/snacks along the route. Be prepared to get off the bus and explore.
 
-[Buy tickets here.](https://www.eventbrite.com/e/milwaukee-tour-for-milwaukeeans-march-on-milwaukee-50th-anniversary-pt-2-tickets-37390000498?aff=erelexpmlt)
+The second tour in this series will take place on November 4th.
+
+[Buy tickets here.](http://200nightsoffreedom.org/2017/09/09/detour-by-carr)
+
