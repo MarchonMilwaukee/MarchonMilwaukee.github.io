@@ -14,11 +14,17 @@ This is the second of  two March On Milwaukee 50th tours, whose route and itiner
 The tour will include several stops, as well as food/snacks along the route. Be prepared to get off the bus and explore. The group will meet at Haymarket Square Park on the corner of McKinley and Old World Third, we will leave right at 10am so please arrive a little early to register - free street parking is available in the area.
 
 Featured destinations include:
+
 -MLK Drive & North Avenue
+
 -Former site of Freedom House II
+
 -Wisconsin Avenue & 16th Street
+
 -National Avenue & 16th Street
+
 -Koscuiszko Park (2201 S 7th St)
+
 -UMOS mural on 1st and Mitchell Street
 
 [Buy tickets here.](https://www.eventbrite.com/e/milwaukee-tour-for-milwaukeeans-march-on-milwaukee-50th-anniversary-pt-2-tickets-37390000498?aff=erelexpmlt)
