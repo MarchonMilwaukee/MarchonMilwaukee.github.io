@@ -710,3 +710,9 @@ input.btn {
   margin-left: 0;
   margin-bottom: 30px;
 }
+
+.caption {
+  font-size: 1.2rem;
+  color: #999;
+  margin-top: 0.5rem;
+}
