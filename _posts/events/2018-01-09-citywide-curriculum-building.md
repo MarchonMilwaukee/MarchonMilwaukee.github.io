@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "City-Wide Curriculum Building"
+title: "City-Wide Curriculum Building: Teaching for Justice in Everything We Do"
 starts_at: "2018-01-09T16:00"
 ends_at: "22018-01-09T19:00"
 location: "Washington Park Library"
