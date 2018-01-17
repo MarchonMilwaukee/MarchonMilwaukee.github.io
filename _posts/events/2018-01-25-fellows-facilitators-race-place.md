@@ -5,7 +5,7 @@ title: "Fellows and Facilitators: Race and Place"
 starts_at: "2018-01-25T18:00"
 ends_at: "2018-01-25T20:00"
 location: "Workshop Architects (201 E Pittsburgh Ave #301)"
-organization: "Ex Fabula"
+organization: "Ex Fabula and Zeidler Center for Public Discussion"
 external_link: "https://www.facebook.com/events/143818162989299/"
 ---
 
