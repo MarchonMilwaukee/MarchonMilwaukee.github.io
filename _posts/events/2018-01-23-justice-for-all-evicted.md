@@ -11,4 +11,4 @@ external_link: "https://www.facebook.com/events/102229057244431/"
 
 Justice for All Book Club: a book talk series featuring readings that highlight social justice issues and Milwaukee's ongoing struggle for racial equity. Inspired by the 50th Anniversary of the Milwaukee Fair Housing Marches.
 
-This session is centered on Evicted by Matthew Desmon.
+This session is centered on Evicted by Matthew Desmond.
