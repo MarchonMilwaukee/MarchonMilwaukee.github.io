@@ -6,6 +6,7 @@ starts_at: "2018-02-20T19:00"
 ends_at: "2018-02-20T20:30"
 location: "Jewish Museum Milwaukee (1360 N Prospect Ave)"
 organization: "Jewish Museum Milwaukee"
+external_link: "https://www.facebook.com/events/1568285436618121/"
 ---
 
 In 1968 the inner core of Milwaukee, home to thousands of low-income families, was being torn up for urban renewal projects. Join us for a screening of Wisconsin Public Television’s “City Within A City: When Pretty Soon Runs Out,” a documentary that explores the stories and lives of low-income families impacted by that development.
