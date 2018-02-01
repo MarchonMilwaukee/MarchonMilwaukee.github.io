@@ -1,18 +1,16 @@
 ---
 layout: event
 sidebar: event
-title: "Redlining, Racism and Reflection: Milwaukee Redlining with Reggie Jackson"
-starts_at: "2018-02-13T19:00"
-ends_at: "2018-02-13T21:00"
+title: "Redlining, Racism and Reflection: Where from Here?"
+starts_at: "2018-02-27T19:00"
+ends_at: "2018-02-27T20:30"
 location: "Jewish Museum Milwaukee (1360 N Prospect Ave)"
 organization: "Jewish Museum Milwaukee"
-external_link: "https://www.facebook.com/events/162245737871984/"
+external_link: "https://www.facebook.com/events/355758451565067/"
 ---
 
-Redlining is the practice of denying services, either directly or through selectively raising prices, to residents of certain areas based on the racial or ethnic composition of those areas, and was the impetus for the Milwaukee Open Housing Marches in 1967-68.
+What really happened during Milwaukee’s Open Housing Marches of 1967-1968? What happened after the 1968 Open Housing Law was passed? Did things change? Join us to learn more about the current state of segregation in Milwaukee, how that was shaped by the 1968 Open Housing Law, and where we go from here.
 
-Learn the history of Redlining in Milwaukee as well as the role and impact of racially restrictive covenants during the 1960s. Reggie Jackson, prominent local historian, educator and head Griot at America’s Black Holocaust Museum, will also discuss the D-5 sector considered a “negro slum” and area for “lesser” Jews.
+Marc Levine from the University of Wisconsin-Milwaukee’s Center for Economic Development will address growth of entrenched segregation and racial inequality in Milwaukee since the 1970s. Margaret Rozga will discuss her involvement with Milwaukee’s NAACP Youth Council, her activism during and after the Open Housing Marches with late husband Father James Groppi and her continued social justice work. Bill Tisdale from Milwaukee’s Fair Housing Council will discuss the organization’s role and advocacy work in the past, present, and looking to the future.
 
-Sponsored by The Ideas Network 90.7. Offered in connection with Allied in the Fight: Jews, Blacks and the Struggle for Civil Rights, an exhibit on display at the Jewish Museum Milwaukee, January 19 – March 25, 2018." Jewish Museum Milwaukee is dedicated to preserving and presenting the history of the Jewish people in southeastern Wisconsin and celebrating the continuum of Jewish heritage and culture. The history of American Jews is rooted in thousands of years of searching for freedom and equality. We are committed to sharing this story and the life lessons it brings with it, so that we may enhance the public’s awareness and appreciation of Jewish life and culture.
-
-Museum Members $6 | Non-members $8
+Sponsored by The Ideas Network 90.7. Offered in connection with Allied in the Fight: Jews, Blacks and the Struggle for Civil Rights, an exhibit on display at the Jewish Museum Milwaukee, January 19 – March 25, 2018."	Jewish Museum Milwaukee is dedicated to preserving and presenting the history of the Jewish people in southeastern Wisconsin and celebrating the continuum of Jewish heritage and culture. The history of American Jews is rooted in thousands of years of searching for freedom and equality. We are committed to sharing this story and the life lessons it brings with it, so that we may enhance the public’s awareness and appreciation of Jewish life and culture.
