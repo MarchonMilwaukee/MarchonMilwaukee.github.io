@@ -1,7 +1,7 @@
 ---
 layout: event
 sidebar: event
-title: "Crossing the Line: The Milwaukee Fair Housing Marches of 1967-1968"
+title: "Crossing the Line: The Milwaukee Fair Housing Marches of 1967-1968 at the Federal Courthouse"
 starts_at: "2018-03-13T08:30"
 ends_at: "2018-03-13T17:00"
 location: "Federal Courthouse (517 East Wisconsin Ave)"
